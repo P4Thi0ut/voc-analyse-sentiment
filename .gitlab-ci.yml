@@ -29,6 +29,8 @@ build:
   artifacts:
     paths:
       - dist
+  tags:
+    - deskea_runner
 
 # ---- Deploy to GitLab Pages ----------------------------------------------
 # The job MUST be named exactly "pages" for GitLab Pages to pick it up.
@@ -47,4 +49,6 @@ pages:
   only:
     - main
     - master
+  tags:
+    - deskea_runner
 
