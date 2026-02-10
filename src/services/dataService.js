@@ -3,12 +3,16 @@
  * This isolates data access so swapping to real API later is trivial
  */
 
+// BASE_URL is "/" locally and "/voc-analyse-sentiment/" on GitHub Pages.
+// It ensures fetch paths resolve correctly regardless of where the app is hosted.
+const BASE = import.meta.env.BASE_URL;
+
 export const dataService = {
   /**
    * Fetch global statistics
    */
   async getStats() {
-    const response = await fetch('/mocked-api/stats.json');
+    const response = await fetch(`${BASE}mocked-api/stats.json`);
     return await response.json();
   },
 
@@ -16,7 +20,7 @@ export const dataService = {
    * Fetch word cloud data (aggregated keywords)
    */
   async getWordCloud() {
-    const response = await fetch('/mocked-api/word-cloud.json');
+    const response = await fetch(`${BASE}mocked-api/word-cloud.json`);
     return await response.json();
   },
 
@@ -24,7 +28,7 @@ export const dataService = {
    * Fetch timeline data (monthly volume and satisfaction)
    */
   async getTimeline() {
-    const response = await fetch('/mocked-api/timeline.json');
+    const response = await fetch(`${BASE}mocked-api/timeline.json`);
     return await response.json();
   },
 
@@ -32,7 +36,7 @@ export const dataService = {
    * Fetch themes aggregation data
    */
   async getThemes() {
-    const response = await fetch('/mocked-api/themes.json');
+    const response = await fetch(`${BASE}mocked-api/themes.json`);
     return await response.json();
   },
 
@@ -40,7 +44,7 @@ export const dataService = {
    * Fetch conversations/verbatims list
    */
   async getConversations() {
-    const response = await fetch('/mocked-api/conversations.json');
+    const response = await fetch(`${BASE}mocked-api/conversations.json`);
     return await response.json();
   },
 
@@ -48,7 +52,7 @@ export const dataService = {
    * Fetch KPI metrics
    */
   async getKPIs() {
-    const response = await fetch('/mocked-api/kpis.json');
+    const response = await fetch(`${BASE}mocked-api/kpis.json`);
     return await response.json();
   },
 
@@ -56,8 +60,7 @@ export const dataService = {
    * Fetch prioritization matrix data
    */
   async getPrioritizationMatrix() {
-    const response = await fetch('/mocked-api/prioritization-matrix.json');
+    const response = await fetch(`${BASE}mocked-api/prioritization-matrix.json`);
     return await response.json();
   }
 };
-
