@@ -6,8 +6,8 @@
         <div class="flex items-center justify-between">
           <!-- Logo and App Name -->
           <div class="flex items-center space-x-3" style="width: 110px; height: 32px;">
-            <img src="/img/icons-v2/logo.svg" alt="Logo" class="h-8 w-8 flex-shrink-0" />
-            <img src="/img/icons-v2/deskea.svg" alt="Deskea" class="h-5 flex-shrink-0" style="max-width: 100%;" />
+            <img :src="`${baseUrl}img/icons-v2/logo.svg`" alt="Logo" class="h-8 w-8 flex-shrink-0" />
+            <img :src="`${baseUrl}img/icons-v2/deskea.svg`" alt="Deskea" class="h-5 flex-shrink-0" style="max-width: 100%;" />
           </div>
           
         </div>
@@ -159,6 +159,7 @@ export default {
   },
   data() {
     return {
+      baseUrl: import.meta.env.BASE_URL,
       selectedVerbatim: null
     };
   },
