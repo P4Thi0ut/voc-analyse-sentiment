@@ -1,0 +1,28 @@
+{
+  "email": {
+    "total": 6234,
+    "positive": 2345,
+    "neutral": 1987,
+    "negative": 1902,
+    "positive_percentage": 37.6,
+    "neutral_percentage": 31.9,
+    "negative_percentage": 30.5,
+    "satisfaction_score": 37.6
+  },
+  "call": {
+    "total": 6224,
+    "positive": 2889,
+    "neutral": 1890,
+    "negative": 1445,
+    "positive_percentage": 46.4,
+    "neutral_percentage": 30.4,
+    "negative_percentage": 23.2,
+    "satisfaction_score": 46.4
+  },
+  "insight": {
+    "difference": 8.8,
+    "message": "Les appels téléphoniques génèrent 8.8% plus de satisfaction que les emails. Considérez une stratégie de contact téléphonique prioritaire pour les clients mécontents.",
+    "recommendation": "Prioriser le contact téléphonique pour améliorer la satisfaction client"
+  }
+}
+
