@@ -31,12 +31,6 @@
               <option>Desti OCC</option>
               <option>Expe DPD</option>
             </select>
-            <select class="px-3 py-2 border border-gray-300 rounded-md text-sm bg-white">
-              <option>Extension, Application</option>
-            </select>
-            <button class="px-4 py-2 bg-purple-600 text-white rounded-md text-sm font-medium hover:bg-purple-700 flex items-center space-x-2">
-              <span>Exporter</span>
-            </button>
           </div>
         </div>
       </div>
@@ -52,22 +46,6 @@
               <li>
                 <a href="#" class="flex items-center space-x-2 px-3 py-2 bg-blue-50 text-blue-600 rounded-md font-medium">
                   <span>Dashboard</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-          
-          <div>
-            <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-3">Évaluation</h3>
-            <ul class="space-y-2">
-              <li>
-                <a href="#" @click.prevent="openConversations" class="flex items-center space-x-2 px-3 py-2 text-gray-700 hover:bg-gray-50 rounded-md">
-                  <span>Conversations</span>
-                </a>
-              </li>
-              <li>
-                <a href="#" @click.prevent="openDashboard" class="flex items-center space-x-2 px-3 py-2 text-gray-700 hover:bg-gray-50 rounded-md">
-                  <span>Tableau de bord</span>
                 </a>
               </li>
             </ul>
@@ -110,19 +88,24 @@
           <WordCloudChart @keyword-clicked="handleKeywordClick" />
         </div>
 
-        <!-- Row 2: Donut + Top Themes -->
+        <!-- Row 2: Donut + Channel Comparison -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
           <SentimentDonut />
+          <ChannelComparison />
+        </div>
+
+        <!-- Row 3: Top Themes -->
+        <div class="mb-6">
           <TopThemesChart />
         </div>
 
-        <!-- Row 2: Timeline + Prioritization Matrix -->
+        <!-- Row 4: Timeline + Prioritization Matrix -->
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
           <TimelineChart />
           <PrioritizationMatrix />
         </div>
 
-        <!-- Row 3: Verbatim list and detail -->
+        <!-- Row 5: Verbatim list and detail -->
         <div>
           <VerbatimList @verbatim-selected="handleVerbatimSelected" />
           <VerbatimDetail :verbatim="selectedVerbatim" @close="selectedVerbatim = null" />
@@ -141,6 +124,7 @@ import TopThemesChart from './TopThemesChart.vue';
 import PrioritizationMatrix from './PrioritizationMatrix.vue';
 import VerbatimList from './VerbatimList.vue';
 import VerbatimDetail from './VerbatimDetail.vue';
+import ChannelComparison from './ChannelComparison.vue';
 import { authService } from '../services/authService';
 
 export default {
@@ -153,7 +137,8 @@ export default {
     TopThemesChart,
     PrioritizationMatrix,
     VerbatimList,
-    VerbatimDetail
+    VerbatimDetail,
+    ChannelComparison
   },
   data() {
     return {
@@ -168,12 +153,6 @@ export default {
     },
     handleVerbatimSelected(verbatim) {
       this.selectedVerbatim = verbatim;
-    },
-    openConversations() {
-      window.open('https://app.gramaide.com/conversations-list', '_blank');
-    },
-    openDashboard() {
-      window.open('https://app.gramaide.com/dashboard/evaluate', '_blank');
     },
     handleLogout() {
       authService.logout();

@@ -62,5 +62,21 @@ export const dataService = {
   async getPrioritizationMatrix() {
     const response = await fetch(`${BASE}mocked-api/prioritization-matrix.json`);
     return await response.json();
+  },
+
+  /**
+   * Fetch site performance data (V2)
+   */
+  async getSitePerformance() {
+    const response = await fetch(`${BASE}mocked-api/site-performance.json`);
+    return await response.json();
+  },
+
+  /**
+   * Fetch channel comparison data (V2)
+   */
+  async getChannelComparison() {
+    const response = await fetch(`${BASE}mocked-api/channel-comparison.json`);
+    return await response.json();
   }
 };
