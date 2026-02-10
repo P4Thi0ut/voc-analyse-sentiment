@@ -31,8 +31,6 @@
               <option>Desti OCC</option>
               <option>Expe DPD</option>
             </select>
-            <input type="text" placeholder="1 Feb 2026 - 10 Feb 2026" 
-                   class="px-3 py-2 border border-gray-300 rounded-md text-sm w-48">
             <select class="px-3 py-2 border border-gray-300 rounded-md text-sm bg-white">
               <option>Extension, Application</option>
             </select>
