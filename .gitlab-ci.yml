@@ -1,54 +1,27 @@
 # ---------------------------------------------------------------------------
-# GitLab CI/CD – Deploy Vue 3 + Vite app to GitLab Pages
+# GitLab CI/CD – Deploy pre-built Vue app to GitLab Pages
 # ---------------------------------------------------------------------------
-# The built static files (including public/mocked-api/*.json) are served
-# directly by GitLab Pages — no backend / API server required.
+# The app is built LOCALLY and the dist/ folder is committed to the repo.
+# This pipeline simply publishes it — no Node.js / npm needed on the runner.
 # ---------------------------------------------------------------------------
 
-image: node:20-alpine
-
-# Cache node_modules between pipeline runs for faster builds
-cache:
-  key: ${CI_COMMIT_REF_SLUG}
-  paths:
-    - node_modules/
+image: alpine:latest
 
 stages:
-  - build
   - deploy
-
-# ---- Build stage ----------------------------------------------------------
-build:
-  stage: build
-  script:
-    - npm ci
-    - npm run build
-    # SPA fallback: GitLab Pages serves 404.html for unknown routes,
-    # so copying index.html lets vue-router handle all client-side paths.
-    - cp dist/index.html dist/404.html
-  artifacts:
-    paths:
-      - dist
-  tags:
-    - deskea_global_runner
 
 # ---- Deploy to GitLab Pages ----------------------------------------------
 # The job MUST be named exactly "pages" for GitLab Pages to pick it up.
 # GitLab Pages expects the site to be in a folder called "public".
 pages:
   stage: deploy
-  dependencies:
-    - build
   script:
-    - rm -rf public
-    - mv dist public
+    - cp -r dist public
   artifacts:
     paths:
       - public
-  # Deploy only from the default branch (change to "main" if that's yours)
   only:
     - main
     - master
   tags:
     - deskea_global_runner
-

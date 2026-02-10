@@ -1,0 +1,973 @@
+[
+  {
+    "id": "conv_001",
+    "date": "2025-02-15",
+    "type": "email",
+    "sentiment": "negative",
+    "extract": "j'aurais dû être livré de 2 articles de vert baudet, une poussette que j'ai reçu et un siège auto pivotant non reçu.",
+    "themes": ["Qualité & État", "Service Client"],
+    "fullText": "Bonjour, j'aurais dû être livré de 2 articles de vert baudet, une poussette que j'ai reçu et un siège auto pivotant non reçu. Quand je vais sur mon compte vert baudet, il est noté que j'ai été livré le 4 février, alors que je n'ai reçu qu'un colis. Pouvez vous me dire ce qu'il en est ?",
+    "feedbacks": [
+      {
+        "feedback_point": "Le client signale une livraison partielle, n'ayant reçu qu'un des deux articles commandés.",
+        "text": "j'aurais dû être livré de 2 articles de vert baudet, une poussette que j'ai reçu et un siège auto pivotant non reçu.",
+        "tags": [
+          {
+            "label": "Etat du colis et qualité de la livraison",
+            "sentiment": 0,
+            "confidence_score": 5
+          },
+          {
+            "label": "Gestion des réclamations",
+            "sentiment": 0,
+            "confidence_score": 4
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "agent_id": "AGT-042",
+      "duration": null,
+      "site": "Toulouse"
+    }
+  },
+  {
+    "id": "conv_002",
+    "date": "2025-02-14",
+    "type": "call",
+    "sentiment": "positive",
+    "extract": "Livraison très rapide, le colis est arrivé en avance sur le créneau horaire prévu. Le chauffeur était très professionnel et courtois.",
+    "themes": ["Performance Livraison", "Qualité & État", "Satisfaction & Image"],
+    "fullText": "Bonjour, je voulais vous féliciter pour la qualité de votre service. Livraison très rapide, le colis est arrivé en avance sur le créneau horaire prévu. Le chauffeur était très professionnel et courtois. Je recommanderai DPD sans hésitation.",
+    "feedbacks": [
+      {
+        "feedback_point": "Client satisfait de la rapidité et du professionnalisme de la livraison.",
+        "text": "Livraison très rapide, le colis est arrivé en avance sur le créneau horaire prévu. Le chauffeur était très professionnel et courtois.",
+        "tags": [
+          {
+            "label": "Performance Livraison",
+            "sentiment": 1,
+            "confidence_score": 5
+          },
+          {
+            "label": "Qualité & État",
+            "sentiment": 1,
+            "confidence_score": 5
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "agent_id": "AGT-128",
+      "duration": "3:45",
+      "site": "Lyon"
+    }
+  },
+  {
+    "id": "conv_003",
+    "date": "2025-02-13",
+    "type": "email",
+    "sentiment": "negative",
+    "extract": "Le suivi de mon colis indique qu'il est livré mais je ne l'ai jamais reçu. Les notifications sont contradictoires et je ne sais plus où en est ma commande.",
+    "themes": ["Tracking & Communication", "Service Client"],
+    "fullText": "Bonjour, j'ai un problème avec le suivi de mon colis. Le système indique qu'il est livré depuis hier mais je ne l'ai jamais reçu. Les notifications sont contradictoires et je ne sais plus où en est ma commande. Pouvez-vous m'aider à clarifier la situation ?",
+    "feedbacks": [
+      {
+        "feedback_point": "Problème de suivi et d'informations contradictoires concernant la livraison.",
+        "text": "Le suivi de mon colis indique qu'il est livré mais je ne l'ai jamais reçu. Les notifications sont contradictoires.",
+        "tags": [
+          {
+            "label": "Suivi du colis, informations et notifications",
+            "sentiment": 0,
+            "confidence_score": 5
+          },
+          {
+            "label": "Traitement et suivi d'une demande SC",
+            "sentiment": 0,
+            "confidence_score": 4
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "agent_id": "AGT-056",
+      "duration": null,
+      "site": "Paris"
+    }
+  },
+  {
+    "id": "conv_004",
+    "date": "2025-02-12",
+    "type": "call",
+    "sentiment": "positive",
+    "extract": "Excellent service, très réactif pour reprogrammer ma livraison. L'application est simple à utiliser et les options de flexibilité sont appréciables.",
+    "themes": ["Options & Flexibilité", "Digitalisation", "Service Client"],
+    "fullText": "Je tenais à vous remercier pour votre excellent service. J'ai dû reprogrammer ma livraison et votre équipe a été très réactive. L'application est simple à utiliser et les options de flexibilité sont appréciables. Je suis très satisfait.",
+    "feedbacks": [
+      {
+        "feedback_point": "Satisfaction concernant la flexibilité et la réactivité du service.",
+        "text": "Excellent service, très réactif pour reprogrammer ma livraison. L'application est simple à utiliser.",
+        "tags": [
+          {
+            "label": "Options & Flexibilité",
+            "sentiment": 1,
+            "confidence_score": 5
+          },
+          {
+            "label": "Digitalisation",
+            "sentiment": 1,
+            "confidence_score": 4
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "agent_id": "AGT-091",
+      "duration": "5:12",
+      "site": "Marseille"
+    }
+  },
+  {
+    "id": "conv_005",
+    "date": "2025-02-11",
+    "type": "email",
+    "sentiment": "negative",
+    "extract": "Mon colis est arrivé endommagé, l'emballage était déchiré et le contenu abîmé. C'est inacceptable pour un service de livraison professionnel.",
+    "themes": ["Qualité & État", "Service Client"],
+    "fullText": "Bonjour, je dois vous signaler que mon colis est arrivé endommagé. L'emballage était déchiré et le contenu abîmé. C'est inacceptable pour un service de livraison professionnel. Je souhaite une réclamation et un remboursement.",
+    "feedbacks": [
+      {
+        "feedback_point": "Colis endommagé à la réception, problème de qualité de la livraison.",
+        "text": "Mon colis est arrivé endommagé, l'emballage était déchiré et le contenu abîmé.",
+        "tags": [
+          {
+            "label": "Etat du colis et qualité de la livraison",
+            "sentiment": 0,
+            "confidence_score": 5
+          },
+          {
+            "label": "Gestion des réclamations",
+            "sentiment": 0,
+            "confidence_score": 5
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "agent_id": "AGT-033",
+      "duration": null,
+      "site": "Bordeaux"
+    }
+  },
+  {
+    "id": "conv_006",
+    "date": "2025-02-10",
+    "type": "call",
+    "sentiment": "positive",
+    "extract": "Livraison ponctuelle et fiable, toujours dans les délais annoncés. Je fais confiance à DPD pour mes envois réguliers.",
+    "themes": ["Performance Livraison", "Satisfaction & Image"],
+    "fullText": "Bonjour, je voulais vous dire que je suis très satisfait de vos services. Livraison ponctuelle et fiable, toujours dans les délais annoncés. Je fais confiance à DPD pour mes envois réguliers et je recommande votre service.",
+    "feedbacks": [
+      {
+        "feedback_point": "Satisfaction générale concernant la fiabilité et la ponctualité.",
+        "text": "Livraison ponctuelle et fiable, toujours dans les délais annoncés.",
+        "tags": [
+          {
+            "label": "Performance Livraison",
+            "sentiment": 1,
+            "confidence_score": 5
+          },
+          {
+            "label": "Satisfaction & Image",
+            "sentiment": 1,
+            "confidence_score": 5
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "agent_id": "AGT-157",
+      "duration": "2:30",
+      "site": "Nantes"
+    }
+  },
+  {
+    "id": "conv_007",
+    "date": "2025-02-09",
+    "type": "email",
+    "sentiment": "neutral",
+    "extract": "Le processus de livraison est correct mais les informations de tracking pourraient être plus détaillées. La plateforme fonctionne bien globalement.",
+    "themes": ["Tracking & Communication", "Process DPD", "Digitalisation"],
+    "fullText": "Bonjour, je trouve que le processus de livraison est correct mais les informations de tracking pourraient être plus détaillées. La plateforme fonctionne bien globalement mais il y a de la marge d'amélioration sur la transparence des informations.",
+    "feedbacks": [
+      {
+        "feedback_point": "Retour neutre sur le processus et les outils numériques.",
+        "text": "Le processus de livraison est correct mais les informations de tracking pourraient être plus détaillées.",
+        "tags": [
+          {
+            "label": "Suivi du colis, informations et notifications",
+            "sentiment": 0,
+            "confidence_score": 3
+          },
+          {
+            "label": "Process DPD",
+            "sentiment": 0,
+            "confidence_score": 3
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "agent_id": "AGT-074",
+      "duration": null,
+      "site": "Strasbourg"
+    }
+  },
+  {
+    "id": "conv_008",
+    "date": "2025-02-08",
+    "type": "call",
+    "sentiment": "negative",
+    "extract": "Délai de livraison non respecté, le colis avait 3 jours de retard. Aucune explication ni notification pour justifier ce retard.",
+    "themes": ["Performance Livraison", "Tracking & Communication"],
+    "fullText": "Bonjour, je dois me plaindre car le délai de livraison n'a pas été respecté. Le colis avait 3 jours de retard et je n'ai reçu aucune explication ni notification pour justifier ce retard. C'est très décevant.",
+    "feedbacks": [
+      {
+        "feedback_point": "Délai non respecté et manque de communication.",
+        "text": "Délai de livraison non respecté, le colis avait 3 jours de retard. Aucune explication ni notification.",
+        "tags": [
+          {
+            "label": "Performance Livraison",
+            "sentiment": 0,
+            "confidence_score": 5
+          },
+          {
+            "label": "Suivi du colis, informations et notifications",
+            "sentiment": 0,
+            "confidence_score": 4
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "agent_id": "AGT-112",
+      "duration": "6:45",
+      "site": "Lille"
+    }
+  },
+  {
+    "id": "conv_009",
+    "date": "2025-02-07",
+    "type": "email",
+    "sentiment": "positive",
+    "extract": "Service client très réactif et efficace pour résoudre mon problème. Accompagnement de qualité, je suis très satisfait.",
+    "themes": ["Service Client", "Satisfaction & Image"],
+    "fullText": "Bonjour, je tenais à vous remercier pour votre service client très réactif et efficace. Vous avez rapidement résolu mon problème et l'accompagnement était de qualité. Je suis très satisfait et je continuerai à utiliser vos services.",
+    "feedbacks": [
+      {
+        "feedback_point": "Satisfaction concernant la réactivité et l'efficacité du service client.",
+        "text": "Service client très réactif et efficace pour résoudre mon problème. Accompagnement de qualité.",
+        "tags": [
+          {
+            "label": "Traitement et suivi d'une demande SC",
+            "sentiment": 1,
+            "confidence_score": 5
+          },
+          {
+            "label": "Satisfaction & Image",
+            "sentiment": 1,
+            "confidence_score": 5
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "agent_id": "AGT-203",
+      "duration": null,
+      "site": "Nice"
+    }
+  },
+  {
+    "id": "conv_010",
+    "date": "2025-02-06",
+    "type": "call",
+    "sentiment": "negative",
+    "extract": "Réclamation non traitée depuis une semaine. Aucune réponse ni suivi de votre part. C'est inacceptable.",
+    "themes": ["Service Client", "Gestion des réclamations"],
+    "fullText": "Bonjour, j'ai déposé une réclamation il y a une semaine et elle n'a toujours pas été traitée. Aucune réponse ni suivi de votre part. C'est inacceptable pour un service client professionnel. Je demande une résolution immédiate.",
+    "feedbacks": [
+      {
+        "feedback_point": "Réclamation non traitée, manque de réactivité du service client.",
+        "text": "Réclamation non traitée depuis une semaine. Aucune réponse ni suivi de votre part.",
+        "tags": [
+          {
+            "label": "Gestion des réclamations",
+            "sentiment": 0,
+            "confidence_score": 5
+          },
+          {
+            "label": "Traitement et suivi d'une demande SC",
+            "sentiment": 0,
+            "confidence_score": 5
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "agent_id": "AGT-045",
+      "duration": "8:20",
+      "site": "Toulouse"
+    }
+  },
+  {
+    "id": "conv_011",
+    "date": "2025-02-05",
+    "type": "email",
+    "sentiment": "positive",
+    "extract": "Points relais très pratiques, flexibilité appréciée. L'interface de l'application est intuitive et les choix de livraison sont nombreux.",
+    "themes": ["Options & Flexibilité", "Digitalisation"],
+    "fullText": "Bonjour, je voulais vous féliciter pour vos points relais très pratiques. La flexibilité est appréciée et l'interface de l'application est intuitive. Les choix de livraison sont nombreux, ce qui est très pratique. Merci !",
+    "feedbacks": [
+      {
+        "feedback_point": "Satisfaction concernant les options de livraison et l'interface digitale.",
+        "text": "Points relais très pratiques, flexibilité appréciée. L'interface de l'application est intuitive.",
+        "tags": [
+          {
+            "label": "Options & Flexibilité",
+            "sentiment": 1,
+            "confidence_score": 5
+          },
+          {
+            "label": "Digitalisation",
+            "sentiment": 1,
+            "confidence_score": 4
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "agent_id": "AGT-189",
+      "duration": null,
+      "site": "Rennes"
+    }
+  },
+  {
+    "id": "conv_012",
+    "date": "2025-02-04",
+    "type": "call",
+    "sentiment": "neutral",
+    "extract": "Le service est correct mais comparé à la concurrence, les délais pourraient être améliorés. Le processus est standard sans plus.",
+    "themes": ["Performance Livraison", "Concurrence", "Process DPD"],
+    "fullText": "Bonjour, je trouve que le service est correct mais comparé à la concurrence, les délais pourraient être améliorés. Le processus est standard sans plus. Rien de mauvais mais rien d'exceptionnel non plus.",
+    "feedbacks": [
+      {
+        "feedback_point": "Retour neutre avec comparaison à la concurrence.",
+        "text": "Le service est correct mais comparé à la concurrence, les délais pourraient être améliorés.",
+        "tags": [
+          {
+            "label": "Performance Livraison",
+            "sentiment": 0,
+            "confidence_score": 3
+          },
+          {
+            "label": "Concurrence",
+            "sentiment": 0,
+            "confidence_score": 4
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "agent_id": "AGT-167",
+      "duration": "4:15",
+      "site": "Montpellier"
+    }
+  },
+  {
+    "id": "conv_013",
+    "date": "2025-02-03",
+    "type": "email",
+    "sentiment": "positive",
+    "extract": "Chauffeur très professionnel, véhicule propre, tenue impeccable. Qualité de service irréprochable, je recommande vivement.",
+    "themes": ["Qualité & État", "Satisfaction & Image"],
+    "fullText": "Bonjour, je tenais à vous féliciter pour la qualité de votre personnel. Le chauffeur était très professionnel, le véhicule propre et sa tenue impeccable. La qualité de service est irréprochable, je recommande vivement DPD.",
+    "feedbacks": [
+      {
+        "feedback_point": "Satisfaction concernant le professionnalisme et la qualité du service.",
+        "text": "Chauffeur très professionnel, véhicule propre, tenue impeccable. Qualité de service irréprochable.",
+        "tags": [
+          {
+            "label": "Qualité & État",
+            "sentiment": 1,
+            "confidence_score": 5
+          },
+          {
+            "label": "Satisfaction & Image",
+            "sentiment": 1,
+            "confidence_score": 5
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "agent_id": "AGT-221",
+      "duration": null,
+      "site": "Bordeaux"
+    }
+  },
+  {
+    "id": "conv_014",
+    "date": "2025-02-02",
+    "type": "call",
+    "sentiment": "negative",
+    "extract": "Colis déposé dans un point relais sans mon accord. Je n'avais pas choisi cette option et maintenant je dois faire 20km pour le récupérer.",
+    "themes": ["Options & Flexibilité", "Service Client"],
+    "fullText": "Bonjour, je dois me plaindre car mon colis a été déposé dans un point relais sans mon accord. Je n'avais pas choisi cette option et maintenant je dois faire 20km pour le récupérer. C'est inacceptable.",
+    "feedbacks": [
+      {
+        "feedback_point": "Problème de respect des options de livraison choisies.",
+        "text": "Colis déposé dans un point relais sans mon accord. Je n'avais pas choisi cette option.",
+        "tags": [
+          {
+            "label": "Options & Flexibilité",
+            "sentiment": 0,
+            "confidence_score": 5
+          },
+          {
+            "label": "Traitement et suivi d'une demande SC",
+            "sentiment": 0,
+            "confidence_score": 4
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "agent_id": "AGT-078",
+      "duration": "7:30",
+      "site": "Lyon"
+    }
+  },
+  {
+    "id": "conv_015",
+    "date": "2025-02-01",
+    "type": "email",
+    "sentiment": "positive",
+    "extract": "Notifications parfaites, suivi en temps réel très apprécié. Transparence totale sur l'état de ma commande, bravo !",
+    "themes": ["Tracking & Communication", "Digitalisation"],
+    "fullText": "Bonjour, je voulais vous féliciter pour vos notifications parfaites. Le suivi en temps réel est très apprécié et la transparence totale sur l'état de ma commande est remarquable. Bravo pour ce service !",
+    "feedbacks": [
+      {
+        "feedback_point": "Satisfaction concernant le suivi et les notifications.",
+        "text": "Notifications parfaites, suivi en temps réel très apprécié. Transparence totale sur l'état de ma commande.",
+        "tags": [
+          {
+            "label": "Suivi du colis, informations et notifications",
+            "sentiment": 1,
+            "confidence_score": 5
+          },
+          {
+            "label": "Digitalisation",
+            "sentiment": 1,
+            "confidence_score": 4
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "agent_id": "AGT-134",
+      "duration": null,
+      "site": "Paris"
+    }
+  },
+  {
+    "id": "conv_016",
+    "date": "2025-01-31",
+    "type": "call",
+    "sentiment": "neutral",
+    "extract": "Le processus de livraison est conforme aux attentes. Rien d'exceptionnel mais le service remplit ses engagements de base.",
+    "themes": ["Process DPD", "Responsabilités"],
+    "fullText": "Bonjour, je trouve que le processus de livraison est conforme aux attentes. Rien d'exceptionnel mais le service remplit ses engagements de base. C'est correct sans plus.",
+    "feedbacks": [
+      {
+        "feedback_point": "Retour neutre sur le processus et les engagements.",
+        "text": "Le processus de livraison est conforme aux attentes. Rien d'exceptionnel mais le service remplit ses engagements.",
+        "tags": [
+          {
+            "label": "Process DPD",
+            "sentiment": 0,
+            "confidence_score": 3
+          },
+          {
+            "label": "Responsabilités",
+            "sentiment": 0,
+            "confidence_score": 3
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "agent_id": "AGT-092",
+      "duration": "3:20",
+      "site": "Nantes"
+    }
+  },
+  {
+    "id": "conv_017",
+    "date": "2025-01-30",
+    "type": "email",
+    "sentiment": "negative",
+    "extract": "Délai de livraison annoncé non respecté, retard de 2 jours sans aucune explication. Manque de fiabilité sur les créneaux horaires.",
+    "themes": ["Performance Livraison", "Tracking & Communication"],
+    "fullText": "Bonjour, je dois me plaindre car le délai de livraison annoncé n'a pas été respecté. Il y a eu un retard de 2 jours sans aucune explication. Le manque de fiabilité sur les créneaux horaires est problématique.",
+    "feedbacks": [
+      {
+        "feedback_point": "Délai non respecté et manque de communication.",
+        "text": "Délai de livraison annoncé non respecté, retard de 2 jours sans aucune explication.",
+        "tags": [
+          {
+            "label": "Performance Livraison",
+            "sentiment": 0,
+            "confidence_score": 5
+          },
+          {
+            "label": "Suivi du colis, informations et notifications",
+            "sentiment": 0,
+            "confidence_score": 4
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "agent_id": "AGT-156",
+      "duration": null,
+      "site": "Marseille"
+    }
+  },
+  {
+    "id": "conv_018",
+    "date": "2025-01-29",
+    "type": "call",
+    "sentiment": "positive",
+    "extract": "Service exceptionnel, rapidité et professionnalisme au rendez-vous. Fidélité garantie, je continuerai avec DPD.",
+    "themes": ["Performance Livraison", "Satisfaction & Image"],
+    "fullText": "Bonjour, je tenais à vous dire que votre service est exceptionnel. Rapidité et professionnalisme au rendez-vous. Ma fidélité est garantie, je continuerai avec DPD sans hésitation.",
+    "feedbacks": [
+      {
+        "feedback_point": "Satisfaction exceptionnelle, engagement de fidélité.",
+        "text": "Service exceptionnel, rapidité et professionnalisme au rendez-vous. Fidélité garantie.",
+        "tags": [
+          {
+            "label": "Performance Livraison",
+            "sentiment": 1,
+            "confidence_score": 5
+          },
+          {
+            "label": "Satisfaction & Image",
+            "sentiment": 1,
+            "confidence_score": 5
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "agent_id": "AGT-198",
+      "duration": "2:45",
+      "site": "Lille"
+    }
+  },
+  {
+    "id": "conv_019",
+    "date": "2025-01-28",
+    "type": "email",
+    "sentiment": "negative",
+    "extract": "Réclamation déposée il y a 10 jours, toujours en attente de traitement. Aucune réactivité du service client, c'est décevant.",
+    "themes": ["Service Client", "Gestion des réclamations"],
+    "fullText": "Bonjour, j'ai déposé une réclamation il y a 10 jours et elle est toujours en attente de traitement. Aucune réactivité du service client, c'est très décevant pour une entreprise de votre taille.",
+    "feedbacks": [
+      {
+        "feedback_point": "Réclamation non traitée, manque de réactivité.",
+        "text": "Réclamation déposée il y a 10 jours, toujours en attente de traitement. Aucune réactivité du service client.",
+        "tags": [
+          {
+            "label": "Gestion des réclamations",
+            "sentiment": 0,
+            "confidence_score": 5
+          },
+          {
+            "label": "Traitement et suivi d'une demande SC",
+            "sentiment": 0,
+            "confidence_score": 5
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "agent_id": "AGT-044",
+      "duration": null,
+      "site": "Strasbourg"
+    }
+  },
+  {
+    "id": "conv_020",
+    "date": "2025-01-27",
+    "type": "call",
+    "sentiment": "positive",
+    "extract": "Application très intuitive, reprogrammation simple et rapide. Les outils numériques sont bien pensés et efficaces.",
+    "themes": ["Digitalisation", "Options & Flexibilité"],
+    "fullText": "Bonjour, je voulais vous féliciter pour votre application très intuitive. La reprogrammation est simple et rapide. Les outils numériques sont bien pensés et efficaces. Excellent travail !",
+    "feedbacks": [
+      {
+        "feedback_point": "Satisfaction concernant les outils numériques et la flexibilité.",
+        "text": "Application très intuitive, reprogrammation simple et rapide. Les outils numériques sont bien pensés.",
+        "tags": [
+          {
+            "label": "Digitalisation",
+            "sentiment": 1,
+            "confidence_score": 5
+          },
+          {
+            "label": "Options & Flexibilité",
+            "sentiment": 1,
+            "confidence_score": 5
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "agent_id": "AGT-173",
+      "duration": "4:00",
+      "site": "Nice"
+    }
+  },
+  {
+    "id": "conv_021",
+    "date": "2025-01-26",
+    "type": "email",
+    "sentiment": "neutral",
+    "extract": "Le service est correct, processus standard. Comparé aux autres transporteurs, vous êtes dans la moyenne sans vous démarquer.",
+    "themes": ["Process DPD", "Concurrence"],
+    "fullText": "Bonjour, je trouve que le service est correct avec un processus standard. Comparé aux autres transporteurs, vous êtes dans la moyenne sans vous démarquer particulièrement. Correct mais perfectible.",
+    "feedbacks": [
+      {
+        "feedback_point": "Retour neutre avec comparaison concurrentielle.",
+        "text": "Le service est correct, processus standard. Comparé aux autres transporteurs, vous êtes dans la moyenne.",
+        "tags": [
+          {
+            "label": "Process DPD",
+            "sentiment": 0,
+            "confidence_score": 3
+          },
+          {
+            "label": "Concurrence",
+            "sentiment": 0,
+            "confidence_score": 4
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "agent_id": "AGT-115",
+      "duration": null,
+      "site": "Rennes"
+    }
+  },
+  {
+    "id": "conv_022",
+    "date": "2025-01-25",
+    "type": "call",
+    "sentiment": "positive",
+    "extract": "Livraison dans les temps, respect du créneau horaire. Chauffeur courtois et professionnel. Service de qualité.",
+    "themes": ["Performance Livraison", "Qualité & État"],
+    "fullText": "Bonjour, je tenais à vous remercier. Livraison dans les temps avec respect du créneau horaire. Le chauffeur était courtois et professionnel. C'est un service de qualité que j'apprécie.",
+    "feedbacks": [
+      {
+        "feedback_point": "Satisfaction concernant la ponctualité et le professionnalisme.",
+        "text": "Livraison dans les temps, respect du créneau horaire. Chauffeur courtois et professionnel.",
+        "tags": [
+          {
+            "label": "Performance Livraison",
+            "sentiment": 1,
+            "confidence_score": 5
+          },
+          {
+            "label": "Qualité & État",
+            "sentiment": 1,
+            "confidence_score": 5
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "agent_id": "AGT-207",
+      "duration": "3:15",
+      "site": "Montpellier"
+    }
+  },
+  {
+    "id": "conv_023",
+    "date": "2025-01-24",
+    "type": "email",
+    "sentiment": "negative",
+    "extract": "Colis livré en retard, emballage abîmé. Le suivi indiquait une livraison normale alors que le colis était endommagé.",
+    "themes": ["Performance Livraison", "Qualité & État", "Tracking & Communication"],
+    "fullText": "Bonjour, je dois me plaindre car mon colis a été livré en retard avec un emballage abîmé. Le suivi indiquait une livraison normale alors que le colis était endommagé. C'est inacceptable.",
+    "feedbacks": [
+      {
+        "feedback_point": "Problème de qualité et de suivi.",
+        "text": "Colis livré en retard, emballage abîmé. Le suivi indiquait une livraison normale alors que le colis était endommagé.",
+        "tags": [
+          {
+            "label": "Performance Livraison",
+            "sentiment": 0,
+            "confidence_score": 5
+          },
+          {
+            "label": "Etat du colis et qualité de la livraison",
+            "sentiment": 0,
+            "confidence_score": 5
+          },
+          {
+            "label": "Suivi du colis, informations et notifications",
+            "sentiment": 0,
+            "confidence_score": 4
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "agent_id": "AGT-061",
+      "duration": null,
+      "site": "Toulouse"
+    }
+  },
+  {
+    "id": "conv_024",
+    "date": "2025-01-23",
+    "type": "call",
+    "sentiment": "positive",
+    "extract": "Très satisfait de la rapidité et de la fiabilité. Service client réactif et efficace. Je recommande DPD sans hésitation.",
+    "themes": ["Performance Livraison", "Service Client", "Satisfaction & Image"],
+    "fullText": "Bonjour, je suis très satisfait de la rapidité et de la fiabilité de vos services. Le service client est réactif et efficace. Je recommande DPD sans hésitation à mon entourage.",
+    "feedbacks": [
+      {
+        "feedback_point": "Satisfaction globale, recommandation.",
+        "text": "Très satisfait de la rapidité et de la fiabilité. Service client réactif et efficace.",
+        "tags": [
+          {
+            "label": "Performance Livraison",
+            "sentiment": 1,
+            "confidence_score": 5
+          },
+          {
+            "label": "Traitement et suivi d'une demande SC",
+            "sentiment": 1,
+            "confidence_score": 5
+          },
+          {
+            "label": "Satisfaction & Image",
+            "sentiment": 1,
+            "confidence_score": 5
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "agent_id": "AGT-139",
+      "duration": "3:50",
+      "site": "Lyon"
+    }
+  },
+  {
+    "id": "conv_025",
+    "date": "2025-01-22",
+    "type": "email",
+    "sentiment": "neutral",
+    "extract": "Le processus est correct, les garanties sont respectées. Rien d'exceptionnel mais conforme aux engagements contractuels.",
+    "themes": ["Process DPD", "Responsabilités"],
+    "fullText": "Bonjour, je trouve que le processus est correct et les garanties sont respectées. Rien d'exceptionnel mais c'est conforme aux engagements contractuels. Correct sans plus.",
+    "feedbacks": [
+      {
+        "feedback_point": "Retour neutre sur le processus et les garanties.",
+        "text": "Le processus est correct, les garanties sont respectées. Rien d'exceptionnel mais conforme aux engagements.",
+        "tags": [
+          {
+            "label": "Process DPD",
+            "sentiment": 0,
+            "confidence_score": 3
+          },
+          {
+            "label": "Responsabilités",
+            "sentiment": 0,
+            "confidence_score": 3
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "agent_id": "AGT-088",
+      "duration": null,
+      "site": "Paris"
+    }
+  },
+  {
+    "id": "conv_026",
+    "date": "2025-01-21",
+    "type": "call",
+    "sentiment": "negative",
+    "extract": "Délai non respecté, aucune notification d'alerte. Le tracking était à jour mais la livraison a pris du retard sans explication.",
+    "themes": ["Performance Livraison", "Tracking & Communication"],
+    "fullText": "Bonjour, je dois me plaindre car le délai n'a pas été respecté et je n'ai reçu aucune notification d'alerte. Le tracking était à jour mais la livraison a pris du retard sans explication. C'est frustrant.",
+    "feedbacks": [
+      {
+        "feedback_point": "Délai non respecté et manque de notifications.",
+        "text": "Délai non respecté, aucune notification d'alerte. Le tracking était à jour mais la livraison a pris du retard.",
+        "tags": [
+          {
+            "label": "Performance Livraison",
+            "sentiment": 0,
+            "confidence_score": 5
+          },
+          {
+            "label": "Suivi du colis, informations et notifications",
+            "sentiment": 0,
+            "confidence_score": 4
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "agent_id": "AGT-192",
+      "duration": "5:45",
+      "site": "Bordeaux"
+    }
+  },
+  {
+    "id": "conv_027",
+    "date": "2025-01-20",
+    "type": "email",
+    "sentiment": "positive",
+    "extract": "Excellent suivi, notifications précises et à jour. Transparence totale, je suis très satisfait du service de tracking.",
+    "themes": ["Tracking & Communication", "Digitalisation"],
+    "fullText": "Bonjour, je voulais vous féliciter pour l'excellent suivi. Les notifications sont précises et à jour. La transparence totale est remarquable, je suis très satisfait du service de tracking.",
+    "feedbacks": [
+      {
+        "feedback_point": "Satisfaction concernant le suivi et la transparence.",
+        "text": "Excellent suivi, notifications précises et à jour. Transparence totale.",
+        "tags": [
+          {
+            "label": "Suivi du colis, informations et notifications",
+            "sentiment": 1,
+            "confidence_score": 5
+          },
+          {
+            "label": "Digitalisation",
+            "sentiment": 1,
+            "confidence_score": 4
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "agent_id": "AGT-176",
+      "duration": null,
+      "site": "Marseille"
+    }
+  },
+  {
+    "id": "conv_028",
+    "date": "2025-01-19",
+    "type": "call",
+    "sentiment": "positive",
+    "extract": "Service irréprochable, ponctualité et professionnalisme. Fidélité garantie, je continuerai avec DPD pour tous mes envois.",
+    "themes": ["Performance Livraison", "Satisfaction & Image"],
+    "fullText": "Bonjour, je tenais à vous dire que votre service est irréprochable. Ponctualité et professionnalisme au rendez-vous. Ma fidélité est garantie, je continuerai avec DPD pour tous mes envois réguliers.",
+    "feedbacks": [
+      {
+        "feedback_point": "Satisfaction exceptionnelle, engagement de fidélité.",
+        "text": "Service irréprochable, ponctualité et professionnalisme. Fidélité garantie.",
+        "tags": [
+          {
+            "label": "Performance Livraison",
+            "sentiment": 1,
+            "confidence_score": 5
+          },
+          {
+            "label": "Satisfaction & Image",
+            "sentiment": 1,
+            "confidence_score": 5
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "agent_id": "AGT-214",
+      "duration": "2:20",
+      "site": "Nantes"
+    }
+  },
+  {
+    "id": "conv_029",
+    "date": "2025-01-18",
+    "type": "email",
+    "sentiment": "negative",
+    "extract": "Colis endommagé à la réception, qualité de livraison décevante. Réclamation nécessaire pour obtenir un remboursement.",
+    "themes": ["Qualité & État", "Gestion des réclamations"],
+    "fullText": "Bonjour, je dois signaler que mon colis est arrivé endommagé à la réception. La qualité de livraison est décevante. Une réclamation est nécessaire pour obtenir un remboursement.",
+    "feedbacks": [
+      {
+        "feedback_point": "Colis endommagé, problème de qualité.",
+        "text": "Colis endommagé à la réception, qualité de livraison décevante. Réclamation nécessaire.",
+        "tags": [
+          {
+            "label": "Etat du colis et qualité de la livraison",
+            "sentiment": 0,
+            "confidence_score": 5
+          },
+          {
+            "label": "Gestion des réclamations",
+            "sentiment": 0,
+            "confidence_score": 5
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "agent_id": "AGT-052",
+      "duration": null,
+      "site": "Lille"
+    }
+  },
+  {
+    "id": "conv_030",
+    "date": "2025-01-17",
+    "type": "call",
+    "sentiment": "positive",
+    "extract": "Réactivité exceptionnelle du service client, problème résolu rapidement. Accompagnement de qualité, très satisfait.",
+    "themes": ["Service Client", "Satisfaction & Image"],
+    "fullText": "Bonjour, je tenais à vous remercier pour la réactivité exceptionnelle de votre service client. Mon problème a été résolu rapidement et l'accompagnement était de qualité. Je suis très satisfait.",
+    "feedbacks": [
+      {
+        "feedback_point": "Satisfaction concernant la réactivité et l'efficacité.",
+        "text": "Réactivité exceptionnelle du service client, problème résolu rapidement. Accompagnement de qualité.",
+        "tags": [
+          {
+            "label": "Traitement et suivi d'une demande SC",
+            "sentiment": 1,
+            "confidence_score": 5
+          },
+          {
+            "label": "Satisfaction & Image",
+            "sentiment": 1,
+            "confidence_score": 5
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "agent_id": "AGT-145",
+      "duration": "4:30",
+      "site": "Strasbourg"
+    }
+  }
+]
+

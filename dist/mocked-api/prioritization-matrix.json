@@ -1,0 +1,88 @@
+{
+  "global_satisfaction_baseline": 42,
+  "total_verbatims": 12458,
+  "themes": [
+    {
+      "label": "Délai livraison",
+      "frequency": 18.5,
+      "impact": -12,
+      "mentions": 2306,
+      "negative_pct": 62,
+      "positive_pct": 22,
+      "quadrant": "priorities"
+    },
+    {
+      "label": "Prix",
+      "frequency": 14.2,
+      "impact": -8,
+      "mentions": 1769,
+      "negative_pct": 55,
+      "positive_pct": 28,
+      "quadrant": "priorities"
+    },
+    {
+      "label": "Accueil",
+      "frequency": 12.8,
+      "impact": 6,
+      "mentions": 1595,
+      "negative_pct": 18,
+      "positive_pct": 65,
+      "quadrant": "strengths"
+    },
+    {
+      "label": "Qualité relation",
+      "frequency": 11.5,
+      "impact": 4,
+      "mentions": 1433,
+      "negative_pct": 15,
+      "positive_pct": 60,
+      "quadrant": "strengths"
+    },
+    {
+      "label": "Nv Relais",
+      "frequency": 5.2,
+      "impact": -6,
+      "mentions": 648,
+      "negative_pct": 48,
+      "positive_pct": 30,
+      "quadrant": "emerging"
+    },
+    {
+      "label": "Agressivité",
+      "frequency": 3.8,
+      "impact": -14,
+      "mentions": 474,
+      "negative_pct": 72,
+      "positive_pct": 8,
+      "quadrant": "emerging"
+    },
+    {
+      "label": "Fiabilité",
+      "frequency": 7.5,
+      "impact": -4,
+      "mentions": 934,
+      "negative_pct": 44,
+      "positive_pct": 35,
+      "quadrant": "emerging"
+    },
+    {
+      "label": "Parking",
+      "frequency": 4.1,
+      "impact": 2,
+      "mentions": 511,
+      "negative_pct": 22,
+      "positive_pct": 48,
+      "quadrant": "neutral"
+    },
+    {
+      "label": "Horaires",
+      "frequency": 3.2,
+      "impact": 1,
+      "mentions": 399,
+      "negative_pct": 25,
+      "positive_pct": 42,
+      "quadrant": "neutral"
+    }
+  ]
+}
+
