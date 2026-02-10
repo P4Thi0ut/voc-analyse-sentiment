@@ -1,0 +1,40 @@
+{
+  "verbatims_traites": {
+    "value": 12458,
+    "trend": 8,
+    "trend_direction": "up",
+    "label": "VERBATIMS TRAITÉS",
+    "comparison": "vs. mois dernier"
+  },
+  "score_satisfaction": {
+    "value": 68,
+    "unit": "%",
+    "trend": -3,
+    "trend_direction": "down",
+    "label": "SCORE SATISFACTION",
+    "comparison": "vs. mois dernier"
+  },
+  "promoteurs": {
+    "value": 7234,
+    "percentage": 58,
+    "label": "PROMOTEURS"
+  },
+  "passifs": {
+    "value": 3728,
+    "percentage": 30,
+    "label": "PASSIFS"
+  },
+  "detracteurs": {
+    "value": 1496,
+    "percentage": 12,
+    "label": "DÉTRACTEURS"
+  },
+  "theme_prioritaire": {
+    "theme": "Délai de livraison",
+    "mentions": 2847,
+    "negative_percentage": 34,
+    "impact": -15,
+    "label": "THÈME PRIORITAIRE #1"
+  }
+}
+

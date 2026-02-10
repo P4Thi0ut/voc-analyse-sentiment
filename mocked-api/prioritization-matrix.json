@@ -1,0 +1,376 @@
+{
+  "global_satisfaction_baseline": 42,
+  "total_verbatims": 12458,
+  "themes": [
+    {
+      "label": "Délai livraison",
+      "frequency": 18.5,
+      "impact": -12,
+      "mentions": 2306,
+      "negative_pct": 62,
+      "positive_pct": 22,
+      "quadrant": "priorities"
+    },
+    {
+      "label": "Prix",
+      "frequency": 14.2,
+      "impact": -8,
+      "mentions": 1769,
+      "negative_pct": 55,
+      "positive_pct": 28,
+      "quadrant": "priorities"
+    },
+    {
+      "label": "Accueil",
+      "frequency": 12.8,
+      "impact": 6,
+      "mentions": 1595,
+      "negative_pct": 18,
+      "positive_pct": 65,
+      "quadrant": "strengths"
+    },
+    {
+      "label": "Qualité relation",
+      "frequency": 11.5,
+      "impact": 4,
+      "mentions": 1433,
+      "negative_pct": 15,
+      "positive_pct": 60,
+      "quadrant": "strengths"
+    },
+    {
+      "label": "Nv Relais",
+      "frequency": 5.2,
+      "impact": -6,
+      "mentions": 648,
+      "negative_pct": 48,
+      "positive_pct": 30,
+      "quadrant": "emerging"
+    },
+    {
+      "label": "Agressivité",
+      "frequency": 3.8,
+      "impact": -14,
+      "mentions": 474,
+      "negative_pct": 72,
+      "positive_pct": 8,
+      "quadrant": "emerging"
+    },
+    {
+      "label": "Fiabilité",
+      "frequency": 7.5,
+      "impact": -4,
+      "mentions": 934,
+      "negative_pct": 44,
+      "positive_pct": 35,
+      "quadrant": "emerging"
+    },
+    {
+      "label": "Parking",
+      "frequency": 4.1,
+      "impact": 2,
+      "mentions": 511,
+      "negative_pct": 22,
+      "positive_pct": 48,
+      "quadrant": "neutral"
+    },
+    {
+      "label": "Horaires",
+      "frequency": 3.2,
+      "impact": 1,
+      "mentions": 399,
+      "negative_pct": 25,
+      "positive_pct": 42,
+      "quadrant": "neutral"
+    },
+    {
+      "label": "Gestion réclamations",
+      "frequency": 16.8,
+      "impact": -15,
+      "mentions": 2094,
+      "negative_pct": 75,
+      "positive_pct": 8,
+      "quadrant": "priorities"
+    },
+    {
+      "label": "Erreurs livraison",
+      "frequency": 15.3,
+      "impact": -18,
+      "mentions": 1908,
+      "negative_pct": 82,
+      "positive_pct": 5,
+      "quadrant": "priorities"
+    },
+    {
+      "label": "Dépôt sauvage",
+      "frequency": 13.7,
+      "impact": -16,
+      "mentions": 1707,
+      "negative_pct": 86,
+      "positive_pct": 4,
+      "quadrant": "priorities"
+    },
+    {
+      "label": "Livraison partielle",
+      "frequency": 12.9,
+      "impact": -14,
+      "mentions": 1608,
+      "negative_pct": 84,
+      "positive_pct": 2,
+      "quadrant": "priorities"
+    },
+    {
+      "label": "Colis endommagé",
+      "frequency": 11.4,
+      "impact": -13,
+      "mentions": 1421,
+      "negative_pct": 78,
+      "positive_pct": 12,
+      "quadrant": "priorities"
+    },
+    {
+      "label": "DPD Predict",
+      "frequency": 10.2,
+      "impact": 8,
+      "mentions": 1272,
+      "negative_pct": 10,
+      "positive_pct": 70,
+      "quadrant": "strengths"
+    },
+    {
+      "label": "Application mobile",
+      "frequency": 9.8,
+      "impact": 7,
+      "mentions": 1221,
+      "negative_pct": 9,
+      "positive_pct": 63,
+      "quadrant": "strengths"
+    },
+    {
+      "label": "Points relais",
+      "frequency": 9.5,
+      "impact": 6,
+      "mentions": 1185,
+      "negative_pct": 9,
+      "positive_pct": 70,
+      "quadrant": "strengths"
+    },
+    {
+      "label": "Professionnalisme",
+      "frequency": 8.9,
+      "impact": 5,
+      "mentions": 1109,
+      "negative_pct": 3,
+      "positive_pct": 72,
+      "quadrant": "strengths"
+    },
+    {
+      "label": "Rapidité traitement",
+      "frequency": 8.2,
+      "impact": 4,
+      "mentions": 1022,
+      "negative_pct": 10,
+      "positive_pct": 70,
+      "quadrant": "strengths"
+    },
+    {
+      "label": "Transparence",
+      "frequency": 7.6,
+      "impact": 3,
+      "mentions": 948,
+      "negative_pct": 8,
+      "positive_pct": 67,
+      "quadrant": "strengths"
+    },
+    {
+      "label": "Informations contradictoires",
+      "frequency": 6.8,
+      "impact": -10,
+      "mentions": 848,
+      "negative_pct": 67,
+      "positive_pct": 8,
+      "quadrant": "emerging"
+    },
+    {
+      "label": "Retards importants",
+      "frequency": 6.2,
+      "impact": -11,
+      "mentions": 773,
+      "negative_pct": 76,
+      "positive_pct": 4,
+      "quadrant": "emerging"
+    },
+    {
+      "label": "Comportement chauffeur",
+      "frequency": 5.5,
+      "impact": -9,
+      "mentions": 686,
+      "negative_pct": 8,
+      "positive_pct": 72,
+      "quadrant": "emerging"
+    },
+    {
+      "label": "Fiabilité globale",
+      "frequency": 4.9,
+      "impact": -5,
+      "mentions": 611,
+      "negative_pct": 8,
+      "positive_pct": 67,
+      "quadrant": "emerging"
+    },
+    {
+      "label": "Propreté véhicules",
+      "frequency": 4.3,
+      "impact": 2,
+      "mentions": 536,
+      "negative_pct": 10,
+      "positive_pct": 60,
+      "quadrant": "neutral"
+    },
+    {
+      "label": "Tenue chauffeur",
+      "frequency": 3.7,
+      "impact": 1,
+      "mentions": 461,
+      "negative_pct": 3,
+      "positive_pct": 63,
+      "quadrant": "neutral"
+    },
+    {
+      "label": "Innovation techno",
+      "frequency": 3.1,
+      "impact": 1,
+      "mentions": 386,
+      "negative_pct": 7,
+      "positive_pct": 70,
+      "quadrant": "neutral"
+    },
+    {
+      "label": "Flexibilité horaires",
+      "frequency": 2.8,
+      "impact": 2,
+      "mentions": 349,
+      "negative_pct": 5,
+      "positive_pct": 75,
+      "quadrant": "neutral"
+    },
+    {
+      "label": "Personnalisation",
+      "frequency": 2.4,
+      "impact": 1,
+      "mentions": 299,
+      "negative_pct": 3,
+      "positive_pct": 73,
+      "quadrant": "neutral"
+    },
+    {
+      "label": "Automatisation",
+      "frequency": 2.1,
+      "impact": 1,
+      "mentions": 262,
+      "negative_pct": 3,
+      "positive_pct": 52,
+      "quadrant": "neutral"
+    },
+    {
+      "label": "Interface utilisateur",
+      "frequency": 1.9,
+      "impact": 0,
+      "mentions": 237,
+      "negative_pct": 5,
+      "positive_pct": 12,
+      "quadrant": "neutral"
+    },
+    {
+      "label": "Plateforme digitale",
+      "frequency": 1.6,
+      "impact": 0,
+      "mentions": 200,
+      "negative_pct": 4,
+      "positive_pct": 15,
+      "quadrant": "neutral"
+    },
+    {
+      "label": "Outils numériques",
+      "frequency": 1.4,
+      "impact": 1,
+      "mentions": 175,
+      "negative_pct": 3,
+      "positive_pct": 18,
+      "quadrant": "neutral"
+    },
+    {
+      "label": "Simplicité",
+      "frequency": 1.2,
+      "impact": 1,
+      "mentions": 150,
+      "negative_pct": 2,
+      "positive_pct": 28,
+      "quadrant": "neutral"
+    },
+    {
+      "label": "Choix options",
+      "frequency": 1.0,
+      "impact": 1,
+      "mentions": 125,
+      "negative_pct": 2,
+      "positive_pct": 25,
+      "quadrant": "neutral"
+    },
+    {
+      "label": "Garanties",
+      "frequency": 0.9,
+      "impact": 0,
+      "mentions": 112,
+      "negative_pct": 2,
+      "positive_pct": 14,
+      "quadrant": "neutral"
+    },
+    {
+      "label": "Engagements",
+      "frequency": 0.8,
+      "impact": 0,
+      "mentions": 100,
+      "negative_pct": 1,
+      "positive_pct": 14,
+      "quadrant": "neutral"
+    },
+    {
+      "label": "Contrat",
+      "frequency": 0.7,
+      "impact": 0,
+      "mentions": 87,
+      "negative_pct": 1,
+      "positive_pct": 8,
+      "quadrant": "neutral"
+    },
+    {
+      "label": "Conditions",
+      "frequency": 0.6,
+      "impact": 0,
+      "mentions": 75,
+      "negative_pct": 1,
+      "positive_pct": 5,
+      "quadrant": "neutral"
+    },
+    {
+      "label": "Clauses",
+      "frequency": 0.5,
+      "impact": 0,
+      "mentions": 62,
+      "negative_pct": 1,
+      "positive_pct": 3,
+      "quadrant": "neutral"
+    },
+    {
+      "label": "Termes",
+      "frequency": 0.4,
+      "impact": 0,
+      "mentions": 50,
+      "negative_pct": 1,
+      "positive_pct": 2,
+      "quadrant": "neutral"
+    }
+  ]
+}
+

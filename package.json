@@ -1,0 +1,24 @@
+{
+  "name": "poc-dpd-voc",
+  "version": "1.0.0",
+  "description": "POC Dashboard for Sentiment Analysis",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "chart.js": "^4.5.1",
+    "d3-cloud": "^1.2.8",
+    "d3-scale": "^4.0.2",
+    "vue": "^3.4.0",
+    "vue-chartjs": "^5.3.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0",
+    "vite": "^5.0.0"
+  }
+}
