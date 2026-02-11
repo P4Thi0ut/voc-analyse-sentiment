@@ -1,170 +1,198 @@
 [
   {
-    "theme": "Suivi et Tracking",
-    "count": 921,
+    "theme": "Probleme d'acces",
+    "count": 4823,
     "sentiment": {
-      "positive": 438,
-      "neutral": 118,
-      "negative": 365
+      "positive": 2069,
+      "neutral": 492,
+      "negative": 2262
     },
     "percentage": {
-      "positive": 48,
-      "neutral": 13,
-      "negative": 40
+      "positive": 43,
+      "neutral": 10,
+      "negative": 47
+    }
+  },
+  {
+    "theme": "Suivi et Tracking",
+    "count": 3920,
+    "sentiment": {
+      "positive": 1773,
+      "neutral": 386,
+      "negative": 1761
+    },
+    "percentage": {
+      "positive": 45,
+      "neutral": 10,
+      "negative": 45
     }
   },
   {
     "theme": "Livraison non recue",
-    "count": 599,
+    "count": 2998,
     "sentiment": {
-      "positive": 235,
-      "neutral": 30,
-      "negative": 334
+      "positive": 1019,
+      "neutral": 113,
+      "negative": 1866
     },
     "percentage": {
-      "positive": 39,
-      "neutral": 5,
-      "negative": 56
+      "positive": 34,
+      "neutral": 4,
+      "negative": 62
     }
   },
   {
     "theme": "Retard de livraison",
-    "count": 505,
+    "count": 2929,
     "sentiment": {
-      "positive": 202,
-      "neutral": 34,
-      "negative": 269
+      "positive": 1032,
+      "neutral": 137,
+      "negative": 1760
     },
     "percentage": {
-      "positive": 40,
-      "neutral": 7,
-      "negative": 53
+      "positive": 35,
+      "neutral": 5,
+      "negative": 60
     }
   },
   {
     "theme": "Point relais",
-    "count": 498,
+    "count": 2781,
     "sentiment": {
-      "positive": 243,
-      "neutral": 34,
-      "negative": 221
+      "positive": 1293,
+      "neutral": 156,
+      "negative": 1332
     },
     "percentage": {
-      "positive": 49,
-      "neutral": 7,
-      "negative": 44
+      "positive": 46,
+      "neutral": 6,
+      "negative": 48
     }
   },
   {
     "theme": "Reprogrammation livraison",
-    "count": 495,
+    "count": 2683,
     "sentiment": {
-      "positive": 284,
-      "neutral": 23,
-      "negative": 188
-    },
-    "percentage": {
-      "positive": 57,
-      "neutral": 5,
-      "negative": 38
-    }
-  },
-  {
-    "theme": "Probleme d'acces",
-    "count": 308,
-    "sentiment": {
-      "positive": 130,
-      "neutral": 25,
-      "negative": 153
-    },
-    "percentage": {
-      "positive": 42,
-      "neutral": 8,
-      "negative": 50
-    }
-  },
-  {
-    "theme": "Communication et Notifications",
-    "count": 256,
-    "sentiment": {
-      "positive": 136,
-      "neutral": 15,
-      "negative": 105
+      "positive": 1423,
+      "neutral": 96,
+      "negative": 1164
     },
     "percentage": {
       "positive": 53,
-      "neutral": 6,
-      "negative": 41
-    }
-  },
-  {
-    "theme": "Retour de colis",
-    "count": 246,
-    "sentiment": {
-      "positive": 106,
-      "neutral": 23,
-      "negative": 117
-    },
-    "percentage": {
-      "positive": 43,
-      "neutral": 9,
-      "negative": 48
+      "neutral": 4,
+      "negative": 43
     }
   },
   {
     "theme": "Reclamation",
-    "count": 233,
+    "count": 1582,
     "sentiment": {
-      "positive": 61,
-      "neutral": 11,
-      "negative": 161
+      "positive": 363,
+      "neutral": 70,
+      "negative": 1149
     },
     "percentage": {
-      "positive": 26,
+      "positive": 23,
+      "neutral": 4,
+      "negative": 73
+    }
+  },
+  {
+    "theme": "Retour de colis",
+    "count": 1416,
+    "sentiment": {
+      "positive": 483,
+      "neutral": 86,
+      "negative": 847
+    },
+    "percentage": {
+      "positive": 34,
+      "neutral": 6,
+      "negative": 60
+    }
+  },
+  {
+    "theme": "Communication et Notifications",
+    "count": 1393,
+    "sentiment": {
+      "positive": 623,
+      "neutral": 71,
+      "negative": 699
+    },
+    "percentage": {
+      "positive": 45,
       "neutral": 5,
-      "negative": 69
+      "negative": 50
     }
   },
   {
     "theme": "DPD Pro / B2B",
-    "count": 211,
+    "count": 751,
     "sentiment": {
-      "positive": 99,
-      "neutral": 29,
-      "negative": 83
+      "positive": 311,
+      "neutral": 105,
+      "negative": 335
     },
     "percentage": {
-      "positive": 47,
+      "positive": 41,
       "neutral": 14,
-      "negative": 39
+      "negative": 45
     }
   },
   {
     "theme": "Colis endommage",
-    "count": 145,
+    "count": 624,
     "sentiment": {
-      "positive": 57,
-      "neutral": 8,
-      "negative": 80
+      "positive": 217,
+      "neutral": 25,
+      "negative": 382
     },
     "percentage": {
-      "positive": 39,
-      "neutral": 6,
-      "negative": 55
+      "positive": 35,
+      "neutral": 4,
+      "negative": 61
+    }
+  },
+  {
+    "theme": "Colis perdu",
+    "count": 564,
+    "sentiment": {
+      "positive": 189,
+      "neutral": 45,
+      "negative": 330
+    },
+    "percentage": {
+      "positive": 34,
+      "neutral": 8,
+      "negative": 59
     }
   },
   {
     "theme": "Adresse incorrecte",
-    "count": 94,
+    "count": 425,
     "sentiment": {
-      "positive": 44,
-      "neutral": 5,
-      "negative": 45
+      "positive": 191,
+      "neutral": 27,
+      "negative": 207
     },
     "percentage": {
-      "positive": 47,
-      "neutral": 5,
-      "negative": 48
+      "positive": 45,
+      "neutral": 6,
+      "negative": 49
+    }
+  },
+  {
+    "theme": "Comportement du livreur",
+    "count": 167,
+    "sentiment": {
+      "positive": 28,
+      "neutral": 1,
+      "negative": 138
+    },
+    "percentage": {
+      "positive": 17,
+      "neutral": 1,
+      "negative": 83
     }
   },
   {
@@ -179,34 +207,6 @@
       "positive": 47,
       "neutral": 33,
       "negative": 20
-    }
-  },
-  {
-    "theme": "Colis perdu",
-    "count": 77,
-    "sentiment": {
-      "positive": 27,
-      "neutral": 10,
-      "negative": 40
-    },
-    "percentage": {
-      "positive": 35,
-      "neutral": 13,
-      "negative": 52
-    }
-  },
-  {
-    "theme": "Comportement du livreur",
-    "count": 33,
-    "sentiment": {
-      "positive": 5,
-      "neutral": 0,
-      "negative": 28
-    },
-    "percentage": {
-      "positive": 15,
-      "neutral": 0,
-      "negative": 85
     }
   }
 ]

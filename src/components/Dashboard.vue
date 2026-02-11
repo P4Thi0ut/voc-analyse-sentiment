@@ -77,7 +77,7 @@
       <main class="flex-1 p-6">
         <div class="mb-6">
           <h1 class="text-2xl font-bold text-gray-900">Analyse de sentiment</h1>
-          <p class="text-gray-600 mt-1">Vue d'ensemble des conversations agent-client</p>
+          <p class="text-gray-600 mt-1">Echantillon des conversations téléphoniques 2026 Expe + Desti</p>
         </div>
 
         <!-- KPI Cards Section -->

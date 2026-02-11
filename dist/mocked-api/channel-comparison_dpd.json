@@ -1,27 +1,27 @@
 {
   "email": {
-    "total": 731,
-    "positive": 400,
-    "neutral": 108,
-    "negative": 223,
-    "positive_percentage": 54.7,
-    "neutral_percentage": 14.8,
-    "negative_percentage": 30.5,
-    "satisfaction_score": 54.7
+    "total": 3331,
+    "positive": 1699,
+    "neutral": 452,
+    "negative": 1180,
+    "positive_percentage": 51.0,
+    "neutral_percentage": 13.6,
+    "negative_percentage": 35.4,
+    "satisfaction_score": 51.0
   },
   "call": {
-    "total": 1269,
-    "positive": 530,
-    "neutral": 100,
-    "negative": 639,
-    "positive_percentage": 41.8,
-    "neutral_percentage": 7.9,
-    "negative_percentage": 50.4,
-    "satisfaction_score": 41.8
+    "total": 6669,
+    "positive": 2465,
+    "neutral": 341,
+    "negative": 3863,
+    "positive_percentage": 37.0,
+    "neutral_percentage": 5.1,
+    "negative_percentage": 57.9,
+    "satisfaction_score": 37.0
   },
   "insight": {
-    "difference": 12.9,
-    "message": "Les appels courts <3min (731 conv.) ont 54.7% de satisfaction vs 41.8% pour les appels longs (1269 conv.). Les appels longs sont lies a des problemes complexes.",
+    "difference": 14.0,
+    "message": "Les appels courts <3min (3331 conv.) ont 51.0% de satisfaction vs 37.0% pour les appels longs (6669 conv.). Les appels longs sont lies a des problemes complexes.",
     "recommendation": "Ameliorer la resolution au premier contact pour reduire la duree des appels et augmenter la satisfaction."
   }
 }

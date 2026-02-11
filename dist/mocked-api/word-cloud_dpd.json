@@ -1,434 +1,443 @@
 [
   {
     "value": "colis",
-    "count": 1828,
+    "count": 9615,
     "sentiment": {
-      "positive": 852,
-      "neutral": 176,
-      "negative": 800
+      "positive": 3986,
+      "neutral": 751,
+      "negative": 4878
     }
   },
   {
     "value": "livraison",
-    "count": 1711,
+    "count": 8725,
     "sentiment": {
-      "positive": 807,
-      "neutral": 150,
-      "negative": 754
+      "positive": 3674,
+      "neutral": 578,
+      "negative": 4473
     }
   },
   {
     "value": "telephone",
-    "count": 540,
+    "count": 3625,
     "sentiment": {
-      "positive": 215,
-      "neutral": 66,
-      "negative": 259
-    }
-  },
-  {
-    "value": "adresse",
-    "count": 395,
-    "sentiment": {
-      "positive": 217,
-      "neutral": 34,
-      "negative": 144
-    }
-  },
-  {
-    "value": "suivi",
-    "count": 378,
-    "sentiment": {
-      "positive": 177,
-      "neutral": 73,
-      "negative": 128
-    }
-  },
-  {
-    "value": "livreur",
-    "count": 346,
-    "sentiment": {
-      "positive": 131,
-      "neutral": 29,
-      "negative": 186
-    }
-  },
-  {
-    "value": "email",
-    "count": 313,
-    "sentiment": {
-      "positive": 182,
-      "neutral": 19,
-      "negative": 112
+      "positive": 1279,
+      "neutral": 324,
+      "negative": 2022
     }
   },
   {
     "value": "agence",
-    "count": 285,
+    "count": 1794,
     "sentiment": {
-      "positive": 138,
-      "neutral": 23,
-      "negative": 124
+      "positive": 689,
+      "neutral": 124,
+      "negative": 981
+    }
+  },
+  {
+    "value": "livreur",
+    "count": 1667,
+    "sentiment": {
+      "positive": 589,
+      "neutral": 95,
+      "negative": 983
+    }
+  },
+  {
+    "value": "adresse",
+    "count": 1664,
+    "sentiment": {
+      "positive": 806,
+      "neutral": 123,
+      "negative": 735
     }
   },
   {
     "value": "point relais",
-    "count": 264,
+    "count": 1464,
     "sentiment": {
-      "positive": 132,
-      "neutral": 22,
-      "negative": 110
+      "positive": 713,
+      "neutral": 88,
+      "negative": 663
+    }
+  },
+  {
+    "value": "email",
+    "count": 1442,
+    "sentiment": {
+      "positive": 702,
+      "neutral": 90,
+      "negative": 650
+    }
+  },
+  {
+    "value": "suivi",
+    "count": 1057,
+    "sentiment": {
+      "positive": 437,
+      "neutral": 178,
+      "negative": 442
     }
   },
   {
     "value": "confirmation",
-    "count": 181,
+    "count": 969,
     "sentiment": {
-      "positive": 160,
-      "neutral": 0,
-      "negative": 21
+      "positive": 811,
+      "neutral": 6,
+      "negative": 152
     }
   },
   {
     "value": "reprogrammation",
-    "count": 162,
+    "count": 885,
     "sentiment": {
-      "positive": 106,
-      "neutral": 6,
-      "negative": 50
-    }
-  },
-  {
-    "value": "creneau horaire",
-    "count": 131,
-    "sentiment": {
-      "positive": 56,
-      "neutral": 9,
-      "negative": 66
+      "positive": 551,
+      "neutral": 25,
+      "negative": 309
     }
   },
   {
     "value": "expediteur",
-    "count": 118,
+    "count": 781,
     "sentiment": {
-      "positive": 32,
-      "neutral": 22,
-      "negative": 64
+      "positive": 201,
+      "neutral": 86,
+      "negative": 494
     }
   },
   {
     "value": "retour",
-    "count": 113,
+    "count": 533,
     "sentiment": {
-      "positive": 49,
-      "neutral": 17,
-      "negative": 47
+      "positive": 179,
+      "neutral": 58,
+      "negative": 296
     }
   },
   {
     "value": "chronopost",
-    "count": 111,
+    "count": 513,
     "sentiment": {
-      "positive": 33,
-      "neutral": 32,
-      "negative": 46
+      "positive": 180,
+      "neutral": 132,
+      "negative": 201
+    }
+  },
+  {
+    "value": "creneau horaire",
+    "count": 467,
+    "sentiment": {
+      "positive": 216,
+      "neutral": 33,
+      "negative": 218
     }
   },
   {
     "value": "jour ouvre",
-    "count": 104,
+    "count": 407,
     "sentiment": {
-      "positive": 60,
-      "neutral": 7,
-      "negative": 37
-    }
-  },
-  {
-    "value": "commande",
-    "count": 91,
-    "sentiment": {
-      "positive": 36,
-      "neutral": 16,
-      "negative": 39
-    }
-  },
-  {
-    "value": "probleme",
-    "count": 72,
-    "sentiment": {
-      "positive": 20,
-      "neutral": 2,
-      "negative": 50
+      "positive": 187,
+      "neutral": 20,
+      "negative": 200
     }
   },
   {
     "value": "reclamation",
-    "count": 66,
+    "count": 397,
     "sentiment": {
-      "positive": 13,
-      "neutral": 1,
-      "negative": 52
-    }
-  },
-  {
-    "value": "tentative livraison",
-    "count": 55,
-    "sentiment": {
-      "positive": 18,
-      "neutral": 7,
-      "negative": 30
+      "positive": 35,
+      "neutral": 2,
+      "negative": 360
     }
   },
   {
     "value": "domicile",
-    "count": 54,
+    "count": 312,
     "sentiment": {
-      "positive": 26,
-      "neutral": 2,
-      "negative": 26
+      "positive": 126,
+      "neutral": 21,
+      "negative": 165
     }
   },
   {
-    "value": "retard",
-    "count": 53,
+    "value": "commande",
+    "count": 297,
     "sentiment": {
-      "positive": 17,
-      "neutral": 1,
-      "negative": 35
+      "positive": 106,
+      "neutral": 54,
+      "negative": 137
     }
   },
   {
-    "value": "destinataire",
-    "count": 50,
+    "value": "probleme",
+    "count": 290,
     "sentiment": {
-      "positive": 19,
-      "neutral": 10,
-      "negative": 21
-    }
-  },
-  {
-    "value": "samedi",
-    "count": 50,
-    "sentiment": {
-      "positive": 18,
-      "neutral": 5,
-      "negative": 27
-    }
-  },
-  {
-    "value": "depot",
-    "count": 50,
-    "sentiment": {
-      "positive": 25,
-      "neutral": 4,
-      "negative": 21
-    }
-  },
-  {
-    "value": "code acces",
-    "count": 43,
-    "sentiment": {
-      "positive": 19,
-      "neutral": 4,
-      "negative": 20
+      "positive": 68,
+      "neutral": 12,
+      "negative": 210
     }
   },
   {
     "value": "statut",
-    "count": 38,
+    "count": 279,
     "sentiment": {
-      "positive": 19,
-      "neutral": 12,
-      "negative": 7
+      "positive": 139,
+      "neutral": 44,
+      "negative": 96
+    }
+  },
+  {
+    "value": "depot",
+    "count": 267,
+    "sentiment": {
+      "positive": 117,
+      "neutral": 23,
+      "negative": 127
+    }
+  },
+  {
+    "value": "retard",
+    "count": 259,
+    "sentiment": {
+      "positive": 58,
+      "neutral": 2,
+      "negative": 199
+    }
+  },
+  {
+    "value": "tentative livraison",
+    "count": 212,
+    "sentiment": {
+      "positive": 65,
+      "neutral": 19,
+      "negative": 128
+    }
+  },
+  {
+    "value": "code acces",
+    "count": 200,
+    "sentiment": {
+      "positive": 92,
+      "neutral": 15,
+      "negative": 93
     }
   },
   {
     "value": "vendeur",
-    "count": 38,
+    "count": 200,
     "sentiment": {
-      "positive": 12,
-      "neutral": 6,
-      "negative": 20
+      "positive": 44,
+      "neutral": 33,
+      "negative": 123
+    }
+  },
+  {
+    "value": "destinataire",
+    "count": 195,
+    "sentiment": {
+      "positive": 89,
+      "neutral": 23,
+      "negative": 83
+    }
+  },
+  {
+    "value": "samedi",
+    "count": 177,
+    "sentiment": {
+      "positive": 83,
+      "neutral": 11,
+      "negative": 83
     }
   },
   {
     "value": "amazon",
-    "count": 37,
+    "count": 143,
     "sentiment": {
-      "positive": 14,
-      "neutral": 6,
-      "negative": 17
-    }
-  },
-  {
-    "value": "sms",
-    "count": 25,
-    "sentiment": {
-      "positive": 12,
-      "neutral": 3,
-      "negative": 10
-    }
-  },
-  {
-    "value": "notification",
-    "count": 24,
-    "sentiment": {
-      "positive": 10,
-      "neutral": 2,
-      "negative": 12
+      "positive": 45,
+      "neutral": 30,
+      "negative": 68
     }
   },
   {
     "value": "preuve livraison",
-    "count": 24,
+    "count": 130,
     "sentiment": {
-      "positive": 12,
-      "neutral": 2,
-      "negative": 10
+      "positive": 43,
+      "neutral": 11,
+      "negative": 76
+    }
+  },
+  {
+    "value": "sms",
+    "count": 108,
+    "sentiment": {
+      "positive": 53,
+      "neutral": 6,
+      "negative": 49
     }
   },
   {
     "value": "absence",
-    "count": 21,
+    "count": 98,
     "sentiment": {
-      "positive": 9,
-      "neutral": 0,
-      "negative": 12
+      "positive": 33,
+      "neutral": 3,
+      "negative": 62
+    }
+  },
+  {
+    "value": "notification",
+    "count": 94,
+    "sentiment": {
+      "positive": 46,
+      "neutral": 6,
+      "negative": 42
     }
   },
   {
     "value": "erreur",
-    "count": 20,
+    "count": 75,
+    "sentiment": {
+      "positive": 17,
+      "neutral": 3,
+      "negative": 55
+    }
+  },
+  {
+    "value": "signature",
+    "count": 69,
+    "sentiment": {
+      "positive": 19,
+      "neutral": 3,
+      "negative": 47
+    }
+  },
+  {
+    "value": "boite aux lettres",
+    "count": 59,
+    "sentiment": {
+      "positive": 20,
+      "neutral": 5,
+      "negative": 34
+    }
+  },
+  {
+    "value": "echec livraison",
+    "count": 49,
+    "sentiment": {
+      "positive": 15,
+      "neutral": 0,
+      "negative": 34
+    }
+  },
+  {
+    "value": "pneus",
+    "count": 47,
+    "sentiment": {
+      "positive": 12,
+      "neutral": 5,
+      "negative": 30
+    }
+  },
+  {
+    "value": "attente",
+    "count": 38,
     "sentiment": {
       "positive": 6,
+      "neutral": 4,
+      "negative": 28
+    }
+  },
+  {
+    "value": "scan",
+    "count": 37,
+    "sentiment": {
+      "positive": 15,
+      "neutral": 4,
+      "negative": 18
+    }
+  },
+  {
+    "value": "preuve photo",
+    "count": 32,
+    "sentiment": {
+      "positive": 8,
+      "neutral": 1,
+      "negative": 23
+    }
+  },
+  {
+    "value": "poids",
+    "count": 30,
+    "sentiment": {
+      "positive": 16,
       "neutral": 2,
       "negative": 12
     }
   },
   {
-    "value": "boite aux lettres",
-    "count": 16,
+    "value": "interphone",
+    "count": 29,
     "sentiment": {
-      "positive": 6,
+      "positive": 15,
       "neutral": 1,
-      "negative": 9
+      "negative": 13
     }
   },
   {
     "value": "souci",
-    "count": 15,
+    "count": 28,
     "sentiment": {
-      "positive": 5,
+      "positive": 12,
       "neutral": 4,
-      "negative": 6
+      "negative": 12
     }
   },
   {
-    "value": "attente",
-    "count": 14,
+    "value": "meuble",
+    "count": 21,
     "sentiment": {
-      "positive": 2,
+      "positive": 9,
       "neutral": 2,
       "negative": 10
     }
   },
   {
-    "value": "pneus",
-    "count": 13,
-    "sentiment": {
-      "positive": 4,
-      "neutral": 3,
-      "negative": 6
-    }
-  },
-  {
-    "value": "signature",
-    "count": 11,
-    "sentiment": {
-      "positive": 2,
-      "neutral": 1,
-      "negative": 8
-    }
-  },
-  {
-    "value": "preuve photo",
+    "value": "mecontentement",
     "count": 10,
     "sentiment": {
-      "positive": 4,
-      "neutral": 1,
-      "negative": 5
-    }
-  },
-  {
-    "value": "meuble",
-    "count": 9,
-    "sentiment": {
-      "positive": 3,
-      "neutral": 1,
-      "negative": 5
-    }
-  },
-  {
-    "value": "poids",
-    "count": 8,
-    "sentiment": {
-      "positive": 4,
+      "positive": 0,
       "neutral": 0,
-      "negative": 4
-    }
-  },
-  {
-    "value": "interphone",
-    "count": 8,
-    "sentiment": {
-      "positive": 5,
-      "neutral": 1,
-      "negative": 2
-    }
-  },
-  {
-    "value": "echec livraison",
-    "count": 7,
-    "sentiment": {
-      "positive": 4,
-      "neutral": 0,
-      "negative": 3
-    }
-  },
-  {
-    "value": "scan",
-    "count": 6,
-    "sentiment": {
-      "positive": 2,
-      "neutral": 1,
-      "negative": 3
+      "negative": 10
     }
   },
   {
     "value": "frustration",
-    "count": 3,
+    "count": 8,
     "sentiment": {
       "positive": 0,
       "neutral": 0,
-      "negative": 3
+      "negative": 8
     }
   },
   {
     "value": "volumineux",
-    "count": 2,
+    "count": 7,
     "sentiment": {
-      "positive": 0,
+      "positive": 1,
       "neutral": 0,
-      "negative": 2
+      "negative": 6
     }
   },
   {
-    "value": "mecontentement",
+    "value": "gps",
     "count": 2,
     "sentiment": {
-      "positive": 0,
+      "positive": 2,
       "neutral": 0,
-      "negative": 2
+      "negative": 0
     }
   }
 ]

@@ -1,13 +1,13 @@
 {
   "verbatims_traites": {
-    "value": 2000,
+    "value": 10000,
     "trend": 0,
     "trend_direction": "stable",
     "label": "VERBATIMS TRAITES",
-    "comparison": "Analyse de 2000 conversations DPD"
+    "comparison": "Analyse de 10000 conversations DPD"
   },
   "score_satisfaction": {
-    "value": 52,
+    "value": 46,
     "unit": "%",
     "trend": 0,
     "trend_direction": "stable",
@@ -15,25 +15,25 @@
     "comparison": "Donnees reelles production"
   },
   "promoteurs": {
-    "value": 930,
-    "percentage": 46,
+    "value": 4164,
+    "percentage": 42,
     "label": "PROMOTEURS"
   },
   "passifs": {
-    "value": 208,
-    "percentage": 10,
+    "value": 793,
+    "percentage": 8,
     "label": "PASSIFS"
   },
   "detracteurs": {
-    "value": 862,
-    "percentage": 43,
+    "value": 5043,
+    "percentage": 50,
     "label": "DETRACTEURS"
   },
   "theme_prioritaire": {
-    "theme": "Suivi et Tracking",
-    "mentions": 921,
-    "negative_percentage": 40,
-    "impact": -18,
+    "theme": "Probleme d'acces",
+    "mentions": 4823,
+    "negative_percentage": 47,
+    "impact": -23,
     "label": "THEME PRIORITAIRE #1"
   }
 }

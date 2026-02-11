@@ -1,110 +1,110 @@
 [
   {
     "site": "Paris",
-    "total": 167,
-    "positive": 74,
-    "neutral": 15,
-    "negative": 78,
-    "satisfaction_percentage": 44.3,
-    "volume": 167
+    "total": 834,
+    "positive": 329,
+    "neutral": 62,
+    "negative": 443,
+    "satisfaction_percentage": 39.4,
+    "volume": 834
   },
   {
     "site": "Lyon",
-    "total": 167,
-    "positive": 73,
-    "neutral": 20,
-    "negative": 74,
-    "satisfaction_percentage": 43.7,
-    "volume": 167
+    "total": 834,
+    "positive": 328,
+    "neutral": 78,
+    "negative": 428,
+    "satisfaction_percentage": 39.3,
+    "volume": 834
   },
   {
     "site": "Marseille",
-    "total": 167,
-    "positive": 74,
-    "neutral": 23,
-    "negative": 70,
-    "satisfaction_percentage": 44.3,
-    "volume": 167
+    "total": 834,
+    "positive": 350,
+    "neutral": 65,
+    "negative": 419,
+    "satisfaction_percentage": 42.0,
+    "volume": 834
   },
   {
     "site": "Toulouse",
-    "total": 167,
-    "positive": 78,
-    "neutral": 14,
-    "negative": 75,
-    "satisfaction_percentage": 46.7,
-    "volume": 167
+    "total": 834,
+    "positive": 350,
+    "neutral": 73,
+    "negative": 411,
+    "satisfaction_percentage": 42.0,
+    "volume": 834
   },
   {
     "site": "Bordeaux",
-    "total": 167,
-    "positive": 81,
-    "neutral": 20,
-    "negative": 66,
-    "satisfaction_percentage": 48.5,
-    "volume": 167
+    "total": 833,
+    "positive": 361,
+    "neutral": 63,
+    "negative": 409,
+    "satisfaction_percentage": 43.3,
+    "volume": 833
   },
   {
     "site": "Nantes",
-    "total": 167,
-    "positive": 73,
-    "neutral": 15,
-    "negative": 79,
-    "satisfaction_percentage": 43.7,
-    "volume": 167
+    "total": 833,
+    "positive": 333,
+    "neutral": 71,
+    "negative": 429,
+    "satisfaction_percentage": 40.0,
+    "volume": 833
   },
   {
     "site": "Strasbourg",
-    "total": 167,
-    "positive": 93,
-    "neutral": 16,
-    "negative": 58,
-    "satisfaction_percentage": 55.7,
-    "volume": 167
+    "total": 833,
+    "positive": 385,
+    "neutral": 58,
+    "negative": 390,
+    "satisfaction_percentage": 46.2,
+    "volume": 833
   },
   {
     "site": "Lille",
-    "total": 167,
-    "positive": 79,
-    "neutral": 15,
-    "negative": 73,
-    "satisfaction_percentage": 47.3,
-    "volume": 167
+    "total": 833,
+    "positive": 333,
+    "neutral": 71,
+    "negative": 429,
+    "satisfaction_percentage": 40.0,
+    "volume": 833
   },
   {
     "site": "Nice",
-    "total": 166,
-    "positive": 75,
-    "neutral": 15,
-    "negative": 76,
-    "satisfaction_percentage": 45.2,
-    "volume": 166
+    "total": 833,
+    "positive": 349,
+    "neutral": 50,
+    "negative": 434,
+    "satisfaction_percentage": 41.9,
+    "volume": 833
   },
   {
     "site": "Montpellier",
-    "total": 166,
-    "positive": 71,
-    "neutral": 18,
-    "negative": 77,
-    "satisfaction_percentage": 42.8,
-    "volume": 166
+    "total": 833,
+    "positive": 339,
+    "neutral": 64,
+    "negative": 430,
+    "satisfaction_percentage": 40.7,
+    "volume": 833
   },
   {
     "site": "Rennes",
-    "total": 166,
-    "positive": 77,
-    "neutral": 19,
-    "negative": 70,
-    "satisfaction_percentage": 46.4,
-    "volume": 166
+    "total": 833,
+    "positive": 349,
+    "neutral": 65,
+    "negative": 419,
+    "satisfaction_percentage": 41.9,
+    "volume": 833
   },
   {
     "site": "Grenoble",
-    "total": 166,
-    "positive": 82,
-    "neutral": 18,
-    "negative": 66,
-    "satisfaction_percentage": 49.4,
-    "volume": 166
+    "total": 833,
+    "positive": 358,
+    "neutral": 73,
+    "negative": 402,
+    "satisfaction_percentage": 43.0,
+    "volume": 833
   }
 ]

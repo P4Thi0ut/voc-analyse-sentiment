@@ -20,7 +20,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.join(SCRIPT_DIR, '..')
 INPUT_FILE = os.path.join(PROJECT_ROOT, 'sample-data', 'gramaide.conversations.json')
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, 'public', 'mocked-api')
-MAX_CONVERSATIONS = 2000
+MAX_CONVERSATIONS = 10000
 
 
 # ─── Sentiment Analysis Engine ───────────────────────────────────────────────
