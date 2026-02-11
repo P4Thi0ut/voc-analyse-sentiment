@@ -12,7 +12,7 @@ export const dataService = {
    * Fetch global statistics
    */
   async getStats() {
-    const response = await fetch(`${BASE}mocked-api/stats.json`);
+    const response = await fetch(`${BASE}mocked-api/stats_dpd.json`);
     return await response.json();
   },
 
@@ -20,7 +20,7 @@ export const dataService = {
    * Fetch word cloud data (aggregated keywords)
    */
   async getWordCloud() {
-    const response = await fetch(`${BASE}mocked-api/word-cloud.json`);
+    const response = await fetch(`${BASE}mocked-api/word-cloud_dpd.json`);
     return await response.json();
   },
 
@@ -28,7 +28,7 @@ export const dataService = {
    * Fetch timeline data (monthly volume and satisfaction)
    */
   async getTimeline() {
-    const response = await fetch(`${BASE}mocked-api/timeline.json`);
+    const response = await fetch(`${BASE}mocked-api/timeline_dpd.json`);
     return await response.json();
   },
 
@@ -36,7 +36,7 @@ export const dataService = {
    * Fetch themes aggregation data
    */
   async getThemes() {
-    const response = await fetch(`${BASE}mocked-api/themes.json`);
+    const response = await fetch(`${BASE}mocked-api/themes_dpd.json`);
     return await response.json();
   },
 
@@ -44,7 +44,7 @@ export const dataService = {
    * Fetch conversations/verbatims list
    */
   async getConversations() {
-    const response = await fetch(`${BASE}mocked-api/conversations.json`);
+    const response = await fetch(`${BASE}mocked-api/conversations_dpd.json`);
     return await response.json();
   },
 
@@ -52,7 +52,7 @@ export const dataService = {
    * Fetch KPI metrics
    */
   async getKPIs() {
-    const response = await fetch(`${BASE}mocked-api/kpis.json`);
+    const response = await fetch(`${BASE}mocked-api/kpis_dpd.json`);
     return await response.json();
   },
 
@@ -60,7 +60,7 @@ export const dataService = {
    * Fetch prioritization matrix data
    */
   async getPrioritizationMatrix() {
-    const response = await fetch(`${BASE}mocked-api/prioritization-matrix.json`);
+    const response = await fetch(`${BASE}mocked-api/prioritization-matrix_dpd.json`);
     return await response.json();
   },
 
@@ -68,7 +68,7 @@ export const dataService = {
    * Fetch site performance data (V2)
    */
   async getSitePerformance() {
-    const response = await fetch(`${BASE}mocked-api/site-performance.json`);
+    const response = await fetch(`${BASE}mocked-api/site-performance_dpd.json`);
     return await response.json();
   },
 
@@ -76,7 +76,7 @@ export const dataService = {
    * Fetch channel comparison data (V2)
    */
   async getChannelComparison() {
-    const response = await fetch(`${BASE}mocked-api/channel-comparison.json`);
+    const response = await fetch(`${BASE}mocked-api/channel-comparison_dpd.json`);
     return await response.json();
   }
 };

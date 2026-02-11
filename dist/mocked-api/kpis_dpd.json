@@ -1,0 +1,39 @@
+{
+  "verbatims_traites": {
+    "value": 2000,
+    "trend": 0,
+    "trend_direction": "stable",
+    "label": "VERBATIMS TRAITES",
+    "comparison": "Analyse de 2000 conversations DPD"
+  },
+  "score_satisfaction": {
+    "value": 52,
+    "unit": "%",
+    "trend": 0,
+    "trend_direction": "stable",
+    "label": "SCORE SATISFACTION",
+    "comparison": "Donnees reelles production"
+  },
+  "promoteurs": {
+    "value": 930,
+    "percentage": 46,
+    "label": "PROMOTEURS"
+  },
+  "passifs": {
+    "value": 208,
+    "percentage": 10,
+    "label": "PASSIFS"
+  },
+  "detracteurs": {
+    "value": 862,
+    "percentage": 43,
+    "label": "DETRACTEURS"
+  },
+  "theme_prioritaire": {
+    "theme": "Suivi et Tracking",
+    "mentions": 921,
+    "negative_percentage": 40,
+    "impact": -18,
+    "label": "THEME PRIORITAIRE #1"
+  }
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "site": "Paris",
+    "total": 167,
+    "positive": 74,
+    "neutral": 15,
+    "negative": 78,
+    "satisfaction_percentage": 44.3,
+    "volume": 167
+  },
+  {
+    "site": "Lyon",
+    "total": 167,
+    "positive": 73,
+    "neutral": 20,
+    "negative": 74,
+    "satisfaction_percentage": 43.7,
+    "volume": 167
+  },
+  {
+    "site": "Marseille",
+    "total": 167,
+    "positive": 74,
+    "neutral": 23,
+    "negative": 70,
+    "satisfaction_percentage": 44.3,
+    "volume": 167
+  },
+  {
+    "site": "Toulouse",
+    "total": 167,
+    "positive": 78,
+    "neutral": 14,
+    "negative": 75,
+    "satisfaction_percentage": 46.7,
+    "volume": 167
+  },
+  {
+    "site": "Bordeaux",
+    "total": 167,
+    "positive": 81,
+    "neutral": 20,
+    "negative": 66,
+    "satisfaction_percentage": 48.5,
+    "volume": 167
+  },
+  {
+    "site": "Nantes",
+    "total": 167,
+    "positive": 73,
+    "neutral": 15,
+    "negative": 79,
+    "satisfaction_percentage": 43.7,
+    "volume": 167
+  },
+  {
+    "site": "Strasbourg",
+    "total": 167,
+    "positive": 93,
+    "neutral": 16,
+    "negative": 58,
+    "satisfaction_percentage": 55.7,
+    "volume": 167
+  },
+  {
+    "site": "Lille",
+    "total": 167,
+    "positive": 79,
+    "neutral": 15,
+    "negative": 73,
+    "satisfaction_percentage": 47.3,
+    "volume": 167
+  },
+  {
+    "site": "Nice",
+    "total": 166,
+    "positive": 75,
+    "neutral": 15,
+    "negative": 76,
+    "satisfaction_percentage": 45.2,
+    "volume": 166
+  },
+  {
+    "site": "Montpellier",
+    "total": 166,
+    "positive": 71,
+    "neutral": 18,
+    "negative": 77,
+    "satisfaction_percentage": 42.8,
+    "volume": 166
+  },
+  {
+    "site": "Rennes",
+    "total": 166,
+    "positive": 77,
+    "neutral": 19,
+    "negative": 70,
+    "satisfaction_percentage": 46.4,
+    "volume": 166
+  },
+  {
+    "site": "Grenoble",
+    "total": 166,
+    "positive": 82,
+    "neutral": 18,
+    "negative": 66,
+    "satisfaction_percentage": 49.4,
+    "volume": 166
+  }
+]

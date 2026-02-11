@@ -1,0 +1,141 @@
+{
+  "global_satisfaction_baseline": 52,
+  "total_verbatims": 2000,
+  "themes": [
+    {
+      "label": "Suivi et Tracking",
+      "frequency": 46.1,
+      "impact": 2,
+      "mentions": 921,
+      "negative_pct": 40,
+      "positive_pct": 48,
+      "quadrant": "strengths"
+    },
+    {
+      "label": "Livraison non recue",
+      "frequency": 29.9,
+      "impact": -3,
+      "mentions": 599,
+      "negative_pct": 56,
+      "positive_pct": 39,
+      "quadrant": "priorities"
+    },
+    {
+      "label": "Retard de livraison",
+      "frequency": 25.2,
+      "impact": -3,
+      "mentions": 505,
+      "negative_pct": 53,
+      "positive_pct": 40,
+      "quadrant": "priorities"
+    },
+    {
+      "label": "Point relais",
+      "frequency": 24.9,
+      "impact": 1,
+      "mentions": 498,
+      "negative_pct": 44,
+      "positive_pct": 49,
+      "quadrant": "strengths"
+    },
+    {
+      "label": "Reprogrammation livraison",
+      "frequency": 24.8,
+      "impact": 4,
+      "mentions": 495,
+      "negative_pct": 38,
+      "positive_pct": 57,
+      "quadrant": "strengths"
+    },
+    {
+      "label": "Probleme d'acces",
+      "frequency": 15.4,
+      "impact": -1,
+      "mentions": 308,
+      "negative_pct": 50,
+      "positive_pct": 42,
+      "quadrant": "priorities"
+    },
+    {
+      "label": "Communication et Notifications",
+      "frequency": 12.8,
+      "impact": 2,
+      "mentions": 256,
+      "negative_pct": 41,
+      "positive_pct": 53,
+      "quadrant": "strengths"
+    },
+    {
+      "label": "Retour de colis",
+      "frequency": 12.3,
+      "impact": -1,
+      "mentions": 246,
+      "negative_pct": 48,
+      "positive_pct": 43,
+      "quadrant": "priorities"
+    },
+    {
+      "label": "Reclamation",
+      "frequency": 11.7,
+      "impact": -9,
+      "mentions": 233,
+      "negative_pct": 69,
+      "positive_pct": 26,
+      "quadrant": "priorities"
+    },
+    {
+      "label": "DPD Pro / B2B",
+      "frequency": 10.5,
+      "impact": 2,
+      "mentions": 211,
+      "negative_pct": 39,
+      "positive_pct": 47,
+      "quadrant": "strengths"
+    },
+    {
+      "label": "Colis endommage",
+      "frequency": 7.2,
+      "impact": -3,
+      "mentions": 145,
+      "negative_pct": 55,
+      "positive_pct": 39,
+      "quadrant": "emerging"
+    },
+    {
+      "label": "Adresse incorrecte",
+      "frequency": 4.7,
+      "impact": 0,
+      "mentions": 94,
+      "negative_pct": 48,
+      "positive_pct": 47,
+      "quadrant": "neutral"
+    },
+    {
+      "label": "Service client",
+      "frequency": 4.3,
+      "impact": 6,
+      "mentions": 87,
+      "negative_pct": 20,
+      "positive_pct": 47,
+      "quadrant": "neutral"
+    },
+    {
+      "label": "Colis perdu",
+      "frequency": 3.9,
+      "impact": -3,
+      "mentions": 77,
+      "negative_pct": 52,
+      "positive_pct": 35,
+      "quadrant": "emerging"
+    },
+    {
+      "label": "Comportement du livreur",
+      "frequency": 1.7,
+      "impact": -14,
+      "mentions": 33,
+      "negative_pct": 85,
+      "positive_pct": 15,
+      "quadrant": "emerging"
+    }
+  ]
+}

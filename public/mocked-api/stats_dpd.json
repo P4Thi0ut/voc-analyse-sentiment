@@ -1,0 +1,9 @@
+{
+  "total": 2000,
+  "positive": 930,
+  "neutral": 208,
+  "negative": 862,
+  "positive_percentage": 46.5,
+  "neutral_percentage": 10.4,
+  "negative_percentage": 43.1
+}

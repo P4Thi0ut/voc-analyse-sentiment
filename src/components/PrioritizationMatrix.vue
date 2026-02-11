@@ -123,21 +123,21 @@ export default {
       const thresholdX = xScale(freqThreshold);
       const thresholdY = yScale(0);
 
-      // Draw quadrant backgrounds
-      // Top-left: PRIORITIES (high impact negative, high frequency)
-      ctx.fillStyle = QUADRANT_COLORS.priorities.bg;
+      // Draw quadrant backgrounds (standard VOC prioritization matrix)
+      // Top-left: NEUTRAL (low freq, positive impact — not a concern)
+      ctx.fillStyle = QUADRANT_COLORS.neutral.bg;
       ctx.fillRect(margin.left, margin.top, thresholdX - margin.left, thresholdY - margin.top);
 
-      // Top-right: EMERGING (high impact negative, low frequency)
-      ctx.fillStyle = QUADRANT_COLORS.emerging.bg;
+      // Top-right: STRENGTHS (high freq, positive impact — keep it up)
+      ctx.fillStyle = QUADRANT_COLORS.strengths.bg;
       ctx.fillRect(thresholdX, margin.top, margin.left + chartW - thresholdX, thresholdY - margin.top);
 
-      // Bottom-left: STRENGTHS (positive impact, high frequency)
-      ctx.fillStyle = QUADRANT_COLORS.strengths.bg;
+      // Bottom-left: EMERGING (low freq, negative impact — watch for growth)
+      ctx.fillStyle = QUADRANT_COLORS.emerging.bg;
       ctx.fillRect(margin.left, thresholdY, thresholdX - margin.left, margin.top + chartH - thresholdY);
 
-      // Bottom-right: NEUTRAL (positive impact, low frequency)
-      ctx.fillStyle = QUADRANT_COLORS.neutral.bg;
+      // Bottom-right: PRIORITIES (high freq, negative impact — fix first!)
+      ctx.fillStyle = QUADRANT_COLORS.priorities.bg;
       ctx.fillRect(thresholdX, thresholdY, margin.left + chartW - thresholdX, margin.top + chartH - thresholdY);
 
       // Draw dashed threshold lines
@@ -159,24 +159,28 @@ export default {
 
       ctx.setLineDash([]);
 
-      // Draw quadrant labels
+      // Draw quadrant labels (standard VOC prioritization matrix)
       ctx.font = 'bold 12px Inter, Arial, sans-serif';
+
+      // Top-left: NEUTRE
       ctx.textAlign = 'left';
-
-      ctx.fillStyle = QUADRANT_COLORS.priorities.labelColor;
-      ctx.fillText('PRIORITÉS', margin.left + 10, margin.top + 22);
-
-      ctx.textAlign = 'right';
-      ctx.fillStyle = QUADRANT_COLORS.emerging.labelColor;
-      ctx.fillText('SIGNAUX ÉMERGENTS', margin.left + chartW - 10, margin.top + 22);
-
-      ctx.textAlign = 'left';
-      ctx.fillStyle = QUADRANT_COLORS.strengths.labelColor;
-      ctx.fillText('FORCES', margin.left + 10, margin.top + chartH - 10);
-
-      ctx.textAlign = 'right';
       ctx.fillStyle = QUADRANT_COLORS.neutral.labelColor;
-      ctx.fillText('NEUTRE', margin.left + chartW - 10, margin.top + chartH - 10);
+      ctx.fillText('NEUTRE', margin.left + 10, margin.top + 22);
+
+      // Top-right: FORCES
+      ctx.textAlign = 'right';
+      ctx.fillStyle = QUADRANT_COLORS.strengths.labelColor;
+      ctx.fillText('FORCES', margin.left + chartW - 10, margin.top + 22);
+
+      // Bottom-left: SIGNAUX ÉMERGENTS
+      ctx.textAlign = 'left';
+      ctx.fillStyle = QUADRANT_COLORS.emerging.labelColor;
+      ctx.fillText('SIGNAUX ÉMERGENTS', margin.left + 10, margin.top + chartH - 10);
+
+      // Bottom-right: PRIORITÉS
+      ctx.textAlign = 'right';
+      ctx.fillStyle = QUADRANT_COLORS.priorities.labelColor;
+      ctx.fillText('PRIORITÉS', margin.left + chartW - 10, margin.top + chartH - 10);
 
       // Draw axes
       ctx.strokeStyle = '#e5e7eb';

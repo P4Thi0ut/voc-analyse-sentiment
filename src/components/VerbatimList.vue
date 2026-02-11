@@ -45,7 +45,7 @@
           </thead>
           <tbody class="bg-white divide-y divide-gray-200">
             <tr
-              v-for="verbatim in filteredAndSortedVerbatims"
+              v-for="verbatim in paginatedVerbatims"
               :key="verbatim.id"
               @click="selectVerbatim(verbatim)"
               class="hover:bg-gray-50 cursor-pointer"
@@ -91,6 +91,62 @@
       <div v-if="filteredAndSortedVerbatims.length === 0" class="text-center py-8 text-gray-500">
         Aucun verbatim trouvé
       </div>
+
+      <!-- Pagination -->
+      <div v-if="totalPages > 1" class="flex items-center justify-between border-t border-gray-200 pt-4 mt-4">
+        <div class="text-sm text-gray-600">
+          Affichage de {{ paginationStart }} à {{ paginationEnd }} sur {{ filteredAndSortedVerbatims.length }} résultats
+        </div>
+        <div class="flex items-center space-x-2">
+          <button
+            @click="goToPage(1)"
+            :disabled="currentPage === 1"
+            class="px-3 py-1.5 text-sm border border-gray-300 rounded-md transition-colors"
+            :class="currentPage === 1 ? 'text-gray-300 cursor-not-allowed' : 'text-gray-700 hover:bg-gray-50'"
+          >
+            «
+          </button>
+          <button
+            @click="goToPage(currentPage - 1)"
+            :disabled="currentPage === 1"
+            class="px-3 py-1.5 text-sm border border-gray-300 rounded-md transition-colors"
+            :class="currentPage === 1 ? 'text-gray-300 cursor-not-allowed' : 'text-gray-700 hover:bg-gray-50'"
+          >
+            ‹
+          </button>
+
+          <template v-for="page in visiblePages" :key="page">
+            <span v-if="page === '...'" class="px-2 text-gray-400">...</span>
+            <button
+              v-else
+              @click="goToPage(page)"
+              class="px-3 py-1.5 text-sm border rounded-md transition-colors"
+              :class="page === currentPage
+                ? 'bg-blue-600 text-white border-blue-600'
+                : 'border-gray-300 text-gray-700 hover:bg-gray-50'"
+            >
+              {{ page }}
+            </button>
+          </template>
+
+          <button
+            @click="goToPage(currentPage + 1)"
+            :disabled="currentPage === totalPages"
+            class="px-3 py-1.5 text-sm border border-gray-300 rounded-md transition-colors"
+            :class="currentPage === totalPages ? 'text-gray-300 cursor-not-allowed' : 'text-gray-700 hover:bg-gray-50'"
+          >
+            ›
+          </button>
+          <button
+            @click="goToPage(totalPages)"
+            :disabled="currentPage === totalPages"
+            class="px-3 py-1.5 text-sm border border-gray-300 rounded-md transition-colors"
+            :class="currentPage === totalPages ? 'text-gray-300 cursor-not-allowed' : 'text-gray-700 hover:bg-gray-50'"
+          >
+            »
+          </button>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -106,8 +162,18 @@ export default {
       verbatims: [],
       searchQuery: '',
       sortBy: 'date',
-      selectedVerbatim: null
+      selectedVerbatim: null,
+      currentPage: 1,
+      perPage: 50
     };
+  },
+  watch: {
+    searchQuery() {
+      this.currentPage = 1;
+    },
+    sortBy() {
+      this.currentPage = 1;
+    }
   },
   computed: {
     filteredAndSortedVerbatims() {
@@ -132,6 +198,39 @@ export default {
       }
 
       return filtered;
+    },
+    totalPages() {
+      return Math.ceil(this.filteredAndSortedVerbatims.length / this.perPage);
+    },
+    paginatedVerbatims() {
+      const start = (this.currentPage - 1) * this.perPage;
+      const end = start + this.perPage;
+      return this.filteredAndSortedVerbatims.slice(start, end);
+    },
+    paginationStart() {
+      if (this.filteredAndSortedVerbatims.length === 0) return 0;
+      return (this.currentPage - 1) * this.perPage + 1;
+    },
+    paginationEnd() {
+      return Math.min(this.currentPage * this.perPage, this.filteredAndSortedVerbatims.length);
+    },
+    visiblePages() {
+      const pages = [];
+      const total = this.totalPages;
+      const current = this.currentPage;
+
+      if (total <= 7) {
+        for (let i = 1; i <= total; i++) pages.push(i);
+      } else {
+        pages.push(1);
+        if (current > 3) pages.push('...');
+        const start = Math.max(2, current - 1);
+        const end = Math.min(total - 1, current + 1);
+        for (let i = start; i <= end; i++) pages.push(i);
+        if (current < total - 2) pages.push('...');
+        pages.push(total);
+      }
+      return pages;
     }
   },
   async mounted() {
@@ -166,6 +265,11 @@ export default {
         negative: 'bg-red-100 text-red-800'
       };
       return classes[sentiment] || 'bg-gray-100 text-gray-800';
+    },
+    goToPage(page) {
+      if (page >= 1 && page <= this.totalPages) {
+        this.currentPage = page;
+      }
     },
     selectVerbatim(verbatim) {
       this.selectedVerbatim = verbatim;

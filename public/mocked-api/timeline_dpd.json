@@ -1,0 +1,62 @@
+[
+  {
+    "month": "2025-03",
+    "volume": 167,
+    "satisfaction": 55.4
+  },
+  {
+    "month": "2025-04",
+    "volume": 167,
+    "satisfaction": 45.2
+  },
+  {
+    "month": "2025-05",
+    "volume": 166,
+    "satisfaction": 53.6
+  },
+  {
+    "month": "2025-06",
+    "volume": 167,
+    "satisfaction": 56.0
+  },
+  {
+    "month": "2025-07",
+    "volume": 167,
+    "satisfaction": 48.8
+  },
+  {
+    "month": "2025-08",
+    "volume": 166,
+    "satisfaction": 57.2
+  },
+  {
+    "month": "2025-09",
+    "volume": 167,
+    "satisfaction": 56.6
+  },
+  {
+    "month": "2025-10",
+    "volume": 167,
+    "satisfaction": 50.9
+  },
+  {
+    "month": "2025-11",
+    "volume": 166,
+    "satisfaction": 54.5
+  },
+  {
+    "month": "2025-12",
+    "volume": 167,
+    "satisfaction": 47.6
+  },
+  {
+    "month": "2026-01",
+    "volume": 167,
+    "satisfaction": 50.9
+  },
+  {
+    "month": "2026-02",
+    "volume": 166,
+    "satisfaction": 43.7
+  }
+]
